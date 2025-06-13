@@ -114,13 +114,13 @@ Fit Score With Prebuilt JD Result:
 
 ✅ Streamlit UI will be available at http://localhost:8501
 
-## 🔹**Environment:**
+### 🔹**Environment:**
 
 ✅ Python 3.9+
 
 ✅ FastAPI, Streamlit, sentence transformers, etc.
 
-🔹**Possible Improvement Ideas:** 🌟
+### 🔹**Possible Improvement Ideas:** 🌟
 
 -> Personalized scoring criteria
 
