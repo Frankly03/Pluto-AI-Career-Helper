@@ -1,0 +1,157 @@
+{
+  "title": "Financial Analyst Roadmap",
+  "description": "Welcome, financial detective and business navigator. A Financial Analyst, often in a role called FP&A (Financial Planning & Analysis), is the internal compass of a company. You analyze financial data to help the business make better decisions. You're not selling companies; you're helping to run one. You'll forecast revenue, manage budgets, and provide the insights that guide the company's strategy. This is your quest to become a master of corporate finance from the inside.",
+  "slug": "financial-analyst",
+  "stages": [
+    {
+      "title": "Phase 1: The Analytical Foundation (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master Financial Accounting",
+          "details": "Just like in investment banking, accounting is the language of business and your absolute foundation. You must be able to fluently read, understand, and interpret a company's financial statements (Income Statement, Balance Sheet, Cash Flow Statement). As an FP&A analyst, you'll be working with these documents daily to understand the company's performance.",
+          "resources": [
+            { "type": "Course", "title": "Corporate Finance Institute (CFI) or Wall Street Prep Courses" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Three Financial Statements",
+            "Understanding the difference between US GAAP and IFRS if applicable",
+            "Revenue recognition principles",
+            "Cost accounting basics (Fixed vs. Variable costs)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Become an Excel Power User",
+          "details": "Excel is your kingdom. You will spend the majority of your time in it, building models, analyzing data, and creating reports. You need to be incredibly fast and efficient. This means mastering formulas, functions, and shortcuts to manipulate data and present it clearly. Your ability to build clean, dynamic, and error-free spreadsheets is a core competency.",
+          "resources": [
+            { "type": "Course", "title": "CFI or Excel-specific courses on platforms like Udemy" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Advanced Formulas: VLOOKUP, INDEX-MATCH, SUMIFS, IFERROR",
+            "Pivot Tables for data summarization",
+            "Conditional Formatting",
+            "Chart and graph creation for data visualization",
+            "What-If Analysis (Goal Seek, Scenario Manager)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Understand Business Operations",
+          "details": "To be a great financial analyst, you can't just live in the numbers. You have to understand the business. How does the company make money? Who are its customers? What drives its revenue and costs? You need to partner with different departments (like Sales, Marketing, and Operations) to understand their challenges and how they impact the financial picture. This business acumen is what makes your analysis insightful.",
+          "resources": [
+            { "type": "Action", "title": "Talk to people outside the finance department. Ask lots of questions." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Understanding the company's key products and services",
+            "Identifying key business drivers",
+            "Learning the metrics that matter for each department"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The FP&A Toolkit (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Financial Modeling",
+          "details": "This is the core technical skill of an FP&A analyst. You will build financial models to forecast the company's future performance. This involves creating a detailed 3-statement model and using it to run various scenarios. What happens to our profit if sales increase by 10%? What if our material costs go up by 5%? Your models will answer these critical business questions.",
+          "resources": [
+            { "type": "Course", "title": "CFI's Financial Modeling & Valuation Analyst (FMVA) certification" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building a 3-Statement financial model",
+            "Forecasting revenue and expenses",
+            "Scenario and sensitivity analysis",
+            "Creating a rolling forecast"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Budgeting and Forecasting",
+          "details": "This is a key responsibility of the FP&A function. You will be heavily involved in the annual budgeting process, working with department heads to set financial targets for the upcoming year. You'll also be responsible for regular forecasting (e.g., monthly or quarterly) to update the company's financial outlook based on actual performance.",
+          "resources": [
+            { "type": "Guide", "title": "FP&A Guide to Budgeting and Forecasting" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The annual budgeting cycle",
+            "Top-down vs. Bottom-up budgeting",
+            "Variance analysis (comparing actuals to budget/forecast)",
+            "Zero-based budgeting concepts"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Develop Your Data Visualization and Reporting Skills",
+          "details": "Your analysis is only as good as your ability to communicate it. You need to learn how to present complex financial information in a way that is easy for non-financial people to understand. This means creating clear, concise reports and dashboards. You'll move beyond basic Excel charts to create compelling visual stories with your data.",
+          "resources": [
+            { "type": "Tool", "title": "PowerPoint" },
+            { "type": "Tool", "title": "BI tools like Tableau or Power BI (a huge plus)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating management dashboards",
+            "Presenting financial results",
+            "Data storytelling",
+            "Choosing the right chart for your data"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Strategic Partner (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Learn to Use BI Tools and SQL",
+          "details": "As you become more advanced, Excel might not be enough. To level up your analysis, you'll need to work with larger datasets. Learning to use a Business Intelligence (BI) tool like Tableau or Power BI will allow you to create powerful, interactive dashboards. Learning basic SQL will enable you to pull data directly from the company's databases, making you much more self-sufficient and powerful as an analyst.",
+          "resources": [
+            { "type": "Course", "title": "Courses on Tableau or Power BI" },
+            { "type": "Course", "title": "SQL for Data Analysis courses (e.g., on Coursera or Udemy)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Connecting to data sources",
+            "Building interactive dashboards",
+            "Writing basic SQL queries (SELECT, FROM, WHERE, GROUP BY)"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Develop Strong Communication and Interpersonal Skills",
+          "details": "An FP&A analyst is a business partner. You will work with people from all across the company. You need to be able to build relationships, explain complex financial concepts in simple terms, and influence decisions. Your ability to collaborate and communicate effectively is just as important as your technical skills.",
+          "resources": [
+            { "type": "Book", "title": "Crucial Conversations" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Presenting to senior leadership",
+            "Business partnering and relationship building",
+            "Translating financial data into actionable insights",
+            "Active listening"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Think Strategically",
+          "details": "Great financial analysts don't just report the numbers; they interpret them and provide strategic advice. As you gain experience, you'll start to see the bigger picture. You'll identify trends, spot risks and opportunities, and contribute to the long-term strategic planning of the company. You'll move from being a scorekeeper to being a key player on the team.",
+          "resources": [
+            { "type": "Action", "title": "Read your company's annual report and investor presentations. Think like an owner." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Understanding long-term financial planning",
+            "Analyzing the financial implications of strategic decisions",
+            "Connecting day-to-day financial performance to the company's goals"
+          ]
+        }
+      ]
+    }
+  ]
+}

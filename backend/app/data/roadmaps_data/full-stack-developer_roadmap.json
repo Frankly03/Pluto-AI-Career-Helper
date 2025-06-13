@@ -1,0 +1,126 @@
+{
+  "title": "Full Stack Developer Roadmap",
+  "description": "Welcome, aspiring jack-of-all-trades of the web! A Full Stack Developer is the ultimate generalist, a bridge between the frontend's visual world and the backend's logical engine. You understand the entire system, from the user's click in the browser to the data being saved in the database. This is your journey to becoming a web development polymath.",
+  "slug": "full-stack-developer",
+  "stages": [
+    {
+      "title": "Phase 1: Master the Two Realms (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Conquer the Frontend Fundamentals",
+          "details": "Your journey begins in the browser. You must first master the holy trinity of the web: HTML for structure, CSS for style, and JavaScript for interactivity. You need to think like a user and understand how to create intuitive and visually appealing interfaces. Don't rush this. A strong frontend foundation makes you a better full stack developer, as you'll understand what the backend needs to provide.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Frontend Developer Roadmap (Phase 1)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Semantic HTML & Accessibility",
+            "CSS Layouts (Flexbox, Grid) and Responsive Design",
+            "Core JavaScript & DOM Manipulation",
+            "Asynchronous JavaScript (Fetch API)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Venture into the Backend",
+          "details": "Next, you travel behind the curtain to the server side. Choose a backend language and framework (Node.js/Express is a natural choice if you love JavaScript). Here, you'll learn how to build the engine. You'll create APIs, interact with databases, and handle the business logic that the frontend consumes. Understanding this side is crucial for seeing the 'full picture' of how an application works.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Backend Developer Roadmap (Phase 1)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Choose a language (Node.js, Python, etc.)",
+            "Build REST APIs",
+            "Understand SQL and NoSQL databases",
+            "Basic Authentication"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Connecting Bridge (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Choose a Frontend Framework",
+          "details": "Now that you understand both sides, it's time to become more efficient. Pick a modern frontend framework like React, Vue, or Angular. This will allow you to build complex user interfaces much faster. As a full stack developer, you'll appreciate how these frameworks help organize code and manage the 'state' of the application, which is the data that comes from your backend.",
+          "resources": [
+            { "type": "Framework", "title": "React, Vue, or Angular" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Component-Based Architecture",
+            "State Management",
+            "Routing"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Connect Frontend to Backend",
+          "details": "This is the magical moment where 'full stack' truly comes to life. You will take the frontend application you built and make it talk to the backend API you created. You'll use the Fetch API (or libraries like Axios) in your frontend code to make requests to your backend endpoints. You'll fetch data from your database and display it to the user. You'll send user input from a form on the frontend to be saved on the backend. This is the core loop of a full stack application.",
+          "resources": [
+            { "type": "Project", "title": "Build a MERN/MEVN/PERN stack application (e.g., a blog, a to-do app with users)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Making API calls from a frontend framework",
+            "Handling data fetching and loading states",
+            "Submitting forms and handling responses",
+            "Dealing with CORS issues"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Master Git and GitHub",
+          "details": "You're now managing two codebases (frontend and backend), or a single 'monorepo'. Git is more important than ever. It's your unified system for tracking changes across the entire stack. You'll learn how to manage both frontend and backend code in a structured way, which is essential for any project bigger than a simple demo.",
+          "resources": [
+            { "type": "Tutorial", "title": "Learn Git Branching (Interactive)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Managing multiple projects or a monorepo",
+            "Writing clear commit messages that specify the part of the stack being changed (e.g., 'feat(api): add user registration endpoint')",
+            "Collaborating with others on a full stack project"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Holistic Engineer (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Deployment and DevOps",
+          "details": "It's time to put your creation on the internet. This means deploying both your frontend application and your backend server. You'll learn how to use cloud platforms (like AWS, Heroku, or DigitalOcean) to host both parts of your application and connect them. You'll also learn about environment variables to manage things like database passwords and API keys securely. This is the final step in bringing a project to life.",
+          "resources": [
+            { "type": "Platform", "title": "Heroku, Vercel (for frontend), AWS" },
+            { "type": "Tool", "title": "Docker" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Deploying a frontend application",
+            "Deploying a backend server and database",
+            "Managing environment variables",
+            "Understanding basic CI/CD to automate your deployments"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Think About Architecture",
+          "details": "As a full stack developer, you are uniquely positioned to think about the entire system. How should the data be structured in the database to be most efficient for the frontend? What logic should live on the frontend versus the backend? You'll learn about different architectural patterns and how to make trade-offs. You're not just a coder; you're a system designer.",
+          "resources": [
+            { "type": "Concept", "title": "Monolith vs. Microservices" },
+            { "type": "Concept", "title": "RESTful API design vs. GraphQL" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Understanding trade-offs in system design",
+            "Thinking about scalability and performance across the stack",
+            "Choosing the right tools for the job"
+          ]
+        }
+      ]
+    }
+  ]
+}

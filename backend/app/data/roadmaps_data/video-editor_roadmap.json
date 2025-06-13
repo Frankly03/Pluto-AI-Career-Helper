@@ -1,0 +1,162 @@
+{
+  "title": "Video Editor Roadmap",
+  "description": "Welcome, storyteller of the moving image. A Video Editor is an artist and technician who crafts raw footage into a compelling narrative. You control the rhythm, pacing, and emotion of a story, transforming hours of material into a polished, impactful final product. This is your quest to master the art of the cut.",
+  "slug": "video-editor",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Post-Production (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Learn the Theory of Film Editing",
+          "details": "Before you can make a single cut, you need to understand *why* you're cutting. Film editing is a language. You'll learn about different types of cuts (like the J-cut and L-cut), the importance of pacing, and how editing can be used to build tension, create emotion, and convey information. This theoretical foundation is what separates a technician from a storyteller.",
+          "resources": [
+            { "type": "Book", "title": "In the Blink of an Eye by Walter Murch" },
+            { "type": "YouTube", "title": "Every Frame a Painting" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The purpose of different types of shots (wide, medium, close-up)",
+            "Continuity editing",
+            "Montage theory",
+            "The Kuleshov Effect"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Choose Your NLE (Non-Linear Editor)",
+          "details": "An NLE is your primary software, your digital editing suite. The 'big three' are Adobe Premiere Pro, DaVinci Resolve, and Final Cut Pro. **Premiere Pro** is the industry workhorse, part of the Adobe Creative Cloud. **DaVinci Resolve** started as a color grading tool but is now a full-featured NLE with a powerful free version. **Final Cut Pro** is an excellent, optimized option for Mac users. Pick one and go deep.",
+          "resources": [
+            { "type": "Software", "title": "Adobe Premiere Pro (Industry standard)" },
+            { "type": "Software", "title": "DaVinci Resolve (Powerful and has a free version)" },
+            { "type": "Software", "title": "Final Cut Pro (Mac only)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Navigating the interface (timeline, project panel, source monitor)",
+            "Importing and organizing footage",
+            "Basic editing tools (blade, ripple, roll)",
+            "Setting up a project and sequence"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Understand Video Fundamentals",
+          "details": "You need to understand the technical side of the video files you're working with. What is a codec? What is a container? What's the difference between frame rate and resolution? Understanding these concepts is crucial for a smooth workflow and for delivering a final product that meets technical specifications without any issues.",
+          "resources": [
+            { "type": "YouTube", "title": "Search for 'video codecs explained' or 'frame rates for beginners'" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Codecs (H.264, ProRes)",
+            "Resolution (1080p, 4K)",
+            "Frame Rate (24, 30, 60 fps)",
+            "Aspect Ratios"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Crafting the Story (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Practice with Stock Footage",
+          "details": "You don't need a fancy camera to start learning. Download free stock footage and practice. Try to create a short, 30-second story from a collection of random clips. This will force you to focus purely on the art of editing: shot selection, pacing, and building a narrative. It's a fantastic way to hone your skills without worrying about production.",
+          "resources": [
+            { "type": "Website", "title": "Pexels Video" },
+            { "type": "Website", "title": "Mixkit" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating a rough cut (the assembly edit)",
+            "Refining the edit (the fine cut)",
+            "Using B-roll to enhance the story",
+            "Finding the narrative in the footage"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Sound Design and Mixing",
+          "details": "Sound is half the experience. A great edit can be ruined by bad audio. You need to learn the basics of sound design. This includes cleaning up dialogue, adding sound effects (SFX) to make the world feel real, and mixing the audio levels so that dialogue, music, and effects are all perfectly balanced. Good audio is invisible; bad audio is all you notice.",
+          "resources": [
+            { "type": "Website", "title": "Freesound.org (for sound effects)" },
+            { "type": "YouTube", "title": "Premiere Pro or DaVinci Resolve audio tutorials" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Audio cleanup and noise reduction",
+            "Equalization (EQ) and compression",
+            "Finding and using sound effects",
+            "Mixing audio levels"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Master Color Correction and Grading",
+          "details": "Color is a powerful storytelling tool. **Color correction** is the technical process of fixing problems and making sure all your shots match. **Color grading** is the creative process of applying a specific 'look' or 'feel' to your video to enhance the mood and tone. A good color grade can make a project look cinematic and professional.",
+          "resources": [
+            { "type": "Software", "title": "DaVinci Resolve is the industry standard for color" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Reading video scopes (waveform, vectorscope)",
+            "Primary color correction (exposure, contrast, saturation)",
+            "Secondary color correction (adjusting specific colors)",
+            "Using LUTs (Look-Up Tables)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Professional Editor (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Learn Basic Motion Graphics",
+          "details": "Most video projects require some form of graphics, like titles, lower thirds, or simple animations. You need to learn the basics of motion graphics. This usually means learning a program like Adobe After Effects, which integrates seamlessly with Premiere Pro. Being able to create your own simple graphics makes you a much more versatile and valuable editor.",
+          "resources": [
+            { "type": "Software", "title": "Adobe After Effects" },
+            { "type": "YouTube", "title": "Video Copilot" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating and animating text",
+            "Basic keyframe animation",
+            "Masking and tracking",
+            "Creating simple lower thirds"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Develop a Niche",
+          "details": "Video editing is a broad field. As you gain experience, you might want to specialize. Do you love the fast-paced world of YouTube content? Are you drawn to the emotional storytelling of documentaries? Do you enjoy the precision of corporate videos or the flair of music videos? Finding a niche allows you to become an expert and market yourself more effectively.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "YouTube content",
+            "Corporate/Commercial videos",
+            "Documentaries",
+            "Wedding videography",
+            "Music videos"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Build Your Demo Reel and Network",
+          "details": "Your demo reel is your visual resume. It's a short, fast-paced montage (usually 60-90 seconds) of your absolute best work, set to music. This is the single most important tool for getting hired. You also need to network. Join online communities, go to local filmmaker meetups, and connect with directors, producers, and other creatives. Your next job will likely come from someone you know.",
+          "resources": [
+            { "type": "Platform", "title": "Vimeo (The preferred platform for professional reels)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Curating your best shots",
+            "Editing for pacing and impact",
+            "Telling a story about your skills",
+            "Building relationships in the industry"
+          ]
+        }
+      ]
+    }
+  ]
+}

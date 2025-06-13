@@ -1,0 +1,161 @@
+{
+  "title": "Graphic Designer Roadmap",
+  "description": "Welcome, visual communicator and storyteller. A Graphic Designer is a creative professional who uses typography, photography, color, and illustration to craft compelling visual messages. You create the logos, websites, advertisements, and publications that shape how we see the world. This is your quest to master the language of visual design.",
+  "slug": "graphic-designer",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Visual Language (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master the Principles of Design",
+          "details": "Before you open any software, you must learn the fundamental rules of the game. These are the timeless principles that govern what makes a design look good and communicate effectively. Understanding concepts like hierarchy, balance, and contrast is what separates a professional designer from a hobbyist. This is the grammar of your new visual language.",
+          "resources": [
+            { "type": "Book", "title": "Making and Breaking the Grid by Timothy Samara" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Hierarchy (Guiding the viewer's eye)",
+            "Balance (Symmetrical, Asymmetrical)",
+            "Contrast",
+            "Repetition and Rhythm",
+            "Proximity and White Space",
+            "Alignment"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn Color Theory",
+          "details": "Color is emotion. It's one of the most powerful tools in your arsenal. You need to learn the science and art of color. This includes understanding the color wheel, creating harmonious color palettes, and knowing the psychological impact of different colors. The right color palette can make a design feel energetic, calming, luxurious, or playful.",
+          "resources": [
+            { "type": "Book", "title": "Interaction of Color by Josef Albers" },
+            { "type": "Tool", "title": "Adobe Color (for creating palettes)" },
+            { "type": "Tool", "title": "Coolors.co" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Color Wheel (Hue, Saturation, Value)",
+            "Color Harmonies (Complementary, Analogous, Triadic)",
+            "Color Psychology",
+            "CMYK vs. RGB color spaces (for print vs. screen)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Master Typography",
+          "details": "Typography is the art of making written language legible, readable, and appealing when displayed. It's not just about choosing a font; it's about how you use it. Great typography can convey a specific mood and make complex information easy to digest. Poor typography can make even the best design unreadable. This is a deep and essential skill.",
+          "resources": [
+            { "type": "Book", "title": "Thinking with Type by Ellen Lupton" },
+            { "type": "Website", "title": "Google Fonts" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Anatomy of a typeface",
+            "Serif vs. Sans-serif fonts",
+            "Kerning, Tracking, and Leading",
+            "Pairing fonts effectively",
+            "Creating a typographic hierarchy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Designer's Toolkit (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Learn the Adobe Creative Cloud 'Big Three'",
+          "details": "These three programs are the industry-standard toolkit for graphic designers. You must become proficient in them. **Photoshop** is for editing raster images (photos). **Illustrator** is for creating vector graphics (logos, icons) that can be scaled to any size. **InDesign** is for layout design (brochures, magazines, PDFs). Each tool has a specific purpose, and you need to know which one to use for which job.",
+          "resources": [
+            { "type": "Software", "title": "Adobe Photoshop, Illustrator, and InDesign" },
+            { "type": "YouTube", "title": "The Futur, Dansky, Satori Graphics" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Photoshop: Layers, masks, adjustment layers, photo retouching",
+            "Illustrator: The Pen Tool, anchor points, pathfinder, vector illustration",
+            "InDesign: Master pages, styles, text flow, preparing documents for print"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Start with a Simple Project: A Business Card or Poster",
+          "details": "The best way to learn your tools and principles is to apply them. Start with a small, self-contained project. Design a business card for a fictional company or a poster for a local event. This will force you to combine typography, color, and layout into a single, cohesive piece. Finish the project, get feedback, and then do another one.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Applying design principles to a real project",
+            "Setting up files correctly for print",
+            "Exporting files in the correct format (PDF, JPG, PNG)"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Study the Greats and Build a Mood Board",
+          "details": "You need to develop your 'eye' for good design. Spend time every day looking at the work of great designers and agencies. Save the things that inspire you. Use platforms like Pinterest or Behance to create 'mood boards' – collections of images, colors, and typography that capture a certain feeling. This practice will build your visual library and help you discover your own personal style.",
+          "resources": [
+            { "type": "Platform", "title": "Behance" },
+            { "type": "Platform", "title": "Dribbble" },
+            { "type": "Platform", "title": "Pinterest" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Deconstructing what makes a good design work",
+            "Identifying design trends",
+            "Curating visual inspiration"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Professional Creative (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Develop a Branding Project",
+          "details": "A branding project is a fantastic portfolio piece because it showcases a wide range of your skills. Create a complete brand identity for a fictional company. This includes designing the logo, choosing the brand colors and fonts, and then applying that identity to several different items, like a website homepage, a business card, and social media graphics. This shows you can think systematically.",
+          "resources": [
+            { "type": "Book", "title": "Designing Brand Identity by Alina Wheeler" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Logo design process (sketching, vectorizing, refining)",
+            "Creating a brand style guide",
+            "Applying a brand identity consistently across different media"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Build Your Portfolio",
+          "details": "Your portfolio is your key to getting work. It's more important than your resume or your education. It should be a curated collection of your 5-10 best projects. Each project should be presented as a case study that tells a story: What was the client's problem? What was your creative process? Why did you make the design decisions you did? A great portfolio shows potential clients *how* you think.",
+          "resources": [
+            { "type": "Platform", "title": "A personal website (using Squarespace or Webflow) is most professional" },
+            { "type": "Platform", "title": "Behance is a great free option" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Curating your best work",
+            "Writing project descriptions",
+            "Creating high-quality mockups to present your designs",
+            "Tailoring your portfolio to the type of work you want"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Learn to Work with Clients and Feedback",
+          "details": "Graphic design is a service profession. You will be working for clients. You need to learn how to manage client relationships, understand their needs (which are often not clearly articulated), and present your work professionally. Most importantly, you need to learn how to handle feedback. Don't take it personally. Learn to see it as a valuable part of the creative process that will make your work better.",
+          "resources": [
+            { "type": "Book", "title": "Burn Your Portfolio by Michael Janda" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Writing a creative brief",
+            "Presenting your design concepts",
+            "Effectively processing and applying client feedback",
+            "Basic business skills (invoicing, contracts)"
+          ]
+        }
+      ]
+    }
+  ]
+}

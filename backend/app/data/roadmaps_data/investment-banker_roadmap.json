@@ -1,0 +1,173 @@
+{
+  "title": "Investment Banker Roadmap",
+  "description": "Welcome to the high-stakes world of corporate finance. An Investment Banker is a financial advisor to corporations, governments, and other institutions. You're a deal-maker, helping companies raise money, merge with or acquire other companies, and navigate complex financial situations. It's a world of high pressure, long hours, and immense rewards. This is your quest to master the art of the deal.",
+  "slug": "investment-banker",
+  "stages": [
+    {
+      "title": "Phase 1: The Financial Bedrock (Crucial Foundation)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master Financial Accounting",
+          "details": "Accounting is the language of business, and you need to be fluent in it. This is the absolute, non-negotiable foundation of everything you will do. You must be able to read and interpret the three core financial statements – the Income Statement, Balance Sheet, and Cash Flow Statement – and understand how they connect. An investment banker who doesn't understand accounting is like a surgeon who doesn't understand anatomy.",
+          "resources": [
+            { "type": "Course", "title": "Wall Street Prep or Breaking Into Wall Street Accounting Courses" },
+            { "type": "Book", "title": "Financial Statement Analysis by Martin Fridson" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Three Financial Statements and how they link",
+            "Debits and Credits",
+            "Accrual vs. Cash Accounting",
+            "Reading a company's 10-K and 10-Q reports"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Develop Advanced Excel Skills",
+          "details": "Excel is your primary tool, your workshop, and your canvas. You will live and breathe in Excel. You need to be a wizard at it, capable of building complex financial models quickly and accurately without ever touching the mouse. Speed and precision are paramount. Every second you save by using a keyboard shortcut is a second you get back in your day.",
+          "resources": [
+            { "type": "Course", "title": "Wall Street Prep or Breaking Into Wall Street Excel Courses" },
+            { "type": "Practice", "title": "Rebuild financial models you find online from scratch" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Keyboard Shortcuts (Ctrl+C, Ctrl+V are just the beginning)",
+            "Advanced Formulas: INDEX, MATCH, OFFSET, CHOOSE",
+            "Data Tables for sensitivity analysis",
+            "Pivot Tables",
+            "Formatting for professional presentation"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Understand Corporate Finance Theory",
+          "details": "This is the 'why' behind the numbers. You need to understand the core theories of corporate finance. What is the time value of money? How do you calculate the cost of capital? What is the relationship between risk and return? These concepts form the intellectual backbone of financial valuation and strategic decision-making.",
+          "resources": [
+            { "type": "Book", "title": "Investment Valuation by Aswath Damodaran" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Time Value of Money (TVM)",
+            "Net Present Value (NPV) and Internal Rate of Return (IRR)",
+            "Weighted Average Cost of Capital (WACC)",
+            "Capital Asset Pricing Model (CAPM)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Art of Valuation (The Core Skillset)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Financial Modeling",
+          "details": "A financial model is a forecast of a company's future financial performance. Building a three-statement financial model is a core skill. You'll take historical data, make assumptions about the future, and project the company's income statement, balance sheet, and cash flow statement out for several years. This model is the foundation for all other valuation work.",
+          "resources": [
+            { "type": "Course", "title": "Wall Street Prep or Breaking Into Wall Street Financial Modeling Courses" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building a 3-Statement Model from scratch",
+            "Debt and Interest Schedules",
+            "Balancing the Balance Sheet",
+            "Creating assumption and scenario toggles"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Comparable Company Analysis (Comps)",
+          "details": "This is a relative valuation method where you value a company by looking at what similar companies are worth. It's like pricing a house by looking at the sale prices of similar houses in the neighborhood. You'll learn how to select a peer group of companies, gather their financial data, and calculate key trading multiples like EV/EBITDA and P/E.",
+          "resources": [
+            { "type": "Guide", "title": "Macabacus or Street of Walls guides on Comps" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Selecting a peer group",
+            "Calculating Enterprise Value and Equity Value",
+            "Spreading comps and calculating multiples",
+            "Understanding the pros and cons of this method"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Learn Precedent Transaction Analysis (Transactions)",
+          "details": "Similar to Comps, this method values a company by looking at what similar companies have been acquired for in the past. This gives you an idea of what a company might be worth in an acquisition scenario, which is often higher than its standalone trading value due to a 'control premium.'",
+          "resources": [
+            { "type": "Guide", "title": "Macabacus or Street of Walls guides on Precedent Transactions" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Finding relevant M&A transactions",
+            "Calculating transaction multiples",
+            "Understanding control premiums"
+          ]
+        },
+        {
+          "id": "2.4",
+          "name": "Master Discounted Cash Flow (DCF) Analysis",
+          "details": "The DCF is the foundation of intrinsic valuation. The idea is simple: a company's value is the sum of all the cash it will generate in the future, discounted back to today's value. In practice, it's a complex model that combines your 3-statement forecast with corporate finance theory (like WACC). A well-built DCF is considered the most intellectually rigorous valuation method.",
+          "resources": [
+            { "type": "Course", "title": "Wall Street Prep or Breaking Into Wall Street DCF Modeling Courses" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Forecasting Unlevered Free Cash Flow",
+            "Calculating WACC",
+            "Calculating Terminal Value (Gordon Growth and Exit Multiple methods)",
+            "Running sensitivity analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Deal Maker (The Job)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Learn M&A and LBO Modeling",
+          "details": "Now you start modeling the deals themselves. An M&A (Mergers & Acquisitions) model analyzes the financial impact of one company acquiring another. A Leveraged Buyout (LBO) model analyzes a transaction where a company is acquired using a significant amount of debt. LBO modeling is the specialty of private equity, but bankers need to master it as well. These are the most complex models you will build.",
+          "resources": [
+            { "type": "Course", "title": "Wall Street Prep or Breaking Into Wall Street M&A and LBO Courses" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "M&A: Accretion/Dilution analysis, sources and uses, purchase price allocation",
+            "LBO: Modeling debt tranches, calculating investor returns (IRR)",
+            "Understanding deal mechanics and structures"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Develop Strong Communication and Presentation Skills",
+          "details": "All of your brilliant financial models are useless if you can't communicate their conclusions. You will spend a huge amount of time creating presentations (pitch books) in PowerPoint. You need to be able to distill complex analyses into clear, persuasive slides. You also need to be a confident and articulate presenter, capable of defending your work to managing directors and clients.",
+          "resources": [
+            { "type": "Practice", "title": "Learn PowerPoint inside and out. Practice presenting your models." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "PowerPoint proficiency",
+            "Creating compelling pitch books and CIMs (Confidential Information Memorandums)",
+            "Public speaking and presenting data",
+            "Attention to detail (typos can kill credibility)"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Understand the Deal Process and Network",
+          "details": "Investment banking is a client-facing business built on relationships. You need to understand the lifecycle of a deal, from the initial pitch to the final closing. You also need to be an effective networker. This means building relationships with colleagues, clients, and other professionals in the industry. The technical skills get you in the door, but the soft skills are what make you successful long-term.",
+          "resources": [
+            { "type": "Action", "title": "Conduct informational interviews with bankers. Follow financial news religiously." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The M&A and capital raising deal lifecycles",
+            "Networking and relationship building",
+            "Market awareness (staying on top of deals and trends)",
+            "Developing a strong work ethic and resilience"
+          ]
+        }
+      ]
+    }
+  ]
+}

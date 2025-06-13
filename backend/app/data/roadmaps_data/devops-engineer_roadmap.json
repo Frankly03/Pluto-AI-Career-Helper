@@ -1,0 +1,164 @@
+{
+  "title": "DevOps Engineer Roadmap",
+  "description": "Welcome, builder of bridges and accelerator of innovation. A DevOps Engineer is the crucial link between software development (Dev) and IT operations (Ops). Your mission is to break down silos and create automated, efficient systems that allow companies to build, test, and release software faster and more reliably. You are a master of automation, tooling, and culture. This is your quest to master the art of the pipeline.",
+  "slug": "devops-engineer",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundation (SysAdmin Transformed) (3-5 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master a Cloud Platform",
+          "details": "Modern infrastructure lives in the cloud. A deep understanding of a major cloud provider (AWS, Azure, or GCP) is the non-negotiable starting point. You're not just using their services; you're becoming an expert in how to configure, secure, and automate them. AWS is the market leader, making it a very safe bet to start your journey.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Cloud Engineer Roadmap (Phase 1)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Services: Compute (EC2), Storage (S3), Networking (VPC), IAM",
+            "Understanding cloud security principles",
+            "Cost management and optimization"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Become a Linux Guru",
+          "details": "The cloud runs on Linux. As a DevOps engineer, the command line is your home. You need to be incredibly proficient at navigating Linux systems, managing processes, configuring services, and writing shell scripts. This is about having complete control over the environments where your applications will live.",
+          "resources": [
+            { "type": "Tutorial", "title": "The Linux Command Line" },
+            { "type": "Practice", "title": "OverTheWire: Bandit" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Advanced CLI tools (grep, awk, sed, curl)",
+            "Shell scripting (Bash) for automation",
+            "System performance monitoring",
+            "Process and service management (systemd)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn a Programming Language for Automation",
+          "details": "You can't click your way to a fully automated infrastructure. You need to code. Python is the de facto standard in the DevOps world for its simplicity, readability, and powerful libraries for interacting with APIs and systems. Go is another rising star, known for its performance and concurrency. The goal is to write scripts and tools that automate everything.",
+          "resources": [
+            { "type": "Language", "title": "Python (The top choice)" },
+            { "type": "Language", "title": "Go (For performance-critical tooling)" },
+            { "type": "Library", "title": "Boto3 (The AWS SDK for Python)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Scripting to automate operational tasks",
+            "Interacting with cloud provider APIs",
+            "Writing tools to simplify workflows for developers"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Core DevOps Toolchain (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master CI/CD (Continuous Integration/Continuous Deployment)",
+          "details": "This is the heart of DevOps. CI/CD is the philosophy and practice of automating the software delivery process. You will build the 'pipelines' that automatically take code from a developer's machine, build it, test it, and deploy it to production. This is what enables teams to release software multiple times a day instead of once every few months.",
+          "resources": [
+            { "type": "Tool", "title": "GitHub Actions (Modern and well-integrated)" },
+            { "type": "Tool", "title": "Jenkins (The classic, powerful workhorse)" },
+            { "type": "Tool", "title": "GitLab CI (Another great integrated option)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building a CI pipeline (build, test)",
+            "Building a CD pipeline (deploy)",
+            "Understanding deployment strategies (Blue/Green, Canary)",
+            "Managing secrets and credentials securely"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Infrastructure as Code (IaC)",
+          "details": "Treat your infrastructure the same way developers treat their application code. With IaC, you write code to define and manage your servers, networks, and databases. This makes your infrastructure reproducible, versionable, and auditable. It eliminates manual configuration, which is slow and error-prone. This is a fundamental shift in how infrastructure is managed.",
+          "resources": [
+            { "type": "Tool", "title": "Terraform (The cloud-agnostic standard)" },
+            { "type": "Tool", "title": "Ansible (For configuration management)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Writing declarative infrastructure code",
+            "Managing state and dependencies",
+            "Creating reusable infrastructure modules",
+            "Provisioning vs. Configuration Management"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Conquer Containers and Orchestration",
+          "details": "Containers (with Docker) and container orchestration (with Kubernetes) have become the standard way to build and run modern applications. Docker packages an application and all its dependencies into a single, portable unit. Kubernetes then runs these units at scale, managing their deployment, scaling, and health. Mastering this duo is critical for a modern DevOps engineer.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Cloud Engineer Roadmap (Phase 3 on Docker & K8s)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Writing efficient Dockerfiles",
+            "Kubernetes architecture and core concepts (Pods, Services, Deployments)",
+            "Managing applications with kubectl",
+            "Using a managed Kubernetes service (EKS, GKE, AKS)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Guardian of Production (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Master Observability (Monitoring on Steroids)",
+          "details": "Once systems are in production, how do you know if they're healthy? 'Observability' is the practice of instrumenting your systems so you can answer any question about their state. It's built on three pillars: Metrics (the numbers), Logs (the events), and Traces (the story of a request). You will build the systems that give your team deep visibility into the health and performance of your applications.",
+          "resources": [
+            { "type": "Tool", "title": "Prometheus & Grafana (For metrics and visualization)" },
+            { "type": "Tool", "title": "ELK Stack or Loki (For logging)" },
+            { "type": "Tool", "title": "Jaeger or OpenTelemetry (For tracing)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Instrumenting applications to export metrics",
+            "Centralized log aggregation and analysis",
+            "Setting up effective alerting and on-call rotations",
+            "Building insightful dashboards"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Embrace Security (DevSecOps)",
+          "details": "Security is not someone else's job. In a DevOps world, security must be integrated into every step of the software lifecycle, a practice known as DevSecOps. You are responsible for helping developers write secure code and for building security checks directly into your CI/CD pipelines. You automate security to make it a seamless part of the development process.",
+          "resources": [
+            { "type": "Concept", "title": "Shifting security 'to the left'" },
+            { "type": "Tool", "title": "Snyk or Trivy (for scanning code and containers for vulnerabilities)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Static Application Security Testing (SAST)",
+            "Dynamic Application Security Testing (DAST)",
+            "Container security scanning",
+            "Secrets management best practices (using tools like HashiCorp Vault)"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Champion the DevOps Culture",
+          "details": "DevOps is not just a set of tools; it's a culture of collaboration, ownership, and continuous improvement. As a DevOps engineer, you are a champion of this culture. You work to break down barriers between teams, encourage shared responsibility, and foster an environment where everyone is empowered to improve the system. Your soft skills are just as important as your technical skills.",
+          "resources": [
+            { "type": "Book", "title": "The Phoenix Project by Gene Kim" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Collaboration and communication",
+            "Advocating for automation and process improvement",
+            "Conducting blameless post-mortems",
+            "Fostering a culture of shared ownership"
+          ]
+        }
+      ]
+    }
+  ]
+}

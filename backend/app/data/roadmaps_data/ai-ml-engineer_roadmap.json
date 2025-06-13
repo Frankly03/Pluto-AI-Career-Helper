@@ -1,0 +1,158 @@
+{
+  "title": "AI/ML Engineer Roadmap",
+  "description": "Welcome, builder of intelligent machines. An AI/ML Engineer is a specialized software engineer who takes the models created by data scientists and makes them work in the real world. You are the bridge between theoretical research and production-grade applications. You're not just training models; you're building robust, scalable, and reliable AI systems. This is your journey to breathe life into algorithms.",
+  "slug": "ai-ml-engineer",
+  "stages": [
+    {
+      "title": "Phase 1: The Core Foundation (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Build Strong Software Engineering Skills",
+          "details": "First and foremost, you are an engineer. You need a rock-solid foundation in software engineering principles. This means being proficient in a language like Python, understanding data structures and algorithms, and being skilled with tools like Git. A model is useless if it's wrapped in poorly written, untested code. Your job is to bring engineering rigor to the world of AI.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Software Engineer Roadmap (Phase 1)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Python proficiency (including OOP)",
+            "Data Structures & Algorithms",
+            "Version Control with Git",
+            "Writing clean, maintainable code"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Master the Machine Learning Workflow",
+          "details": "You need to deeply understand the entire lifecycle of a machine learning project, from a data scientist's perspective. This includes data collection and cleaning, feature engineering, model selection, training, and evaluation. While you may not be doing the initial research, you need to speak the language and understand the 'why' behind the choices made, so you can build systems to support them.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Data Scientist Roadmap (Phase 2)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Supervised and Unsupervised Learning concepts",
+            "The Scikit-learn library",
+            "Model evaluation metrics (Accuracy, Precision, Recall, etc.)",
+            "Feature Engineering techniques"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Deep Dive into a Deep Learning Framework",
+          "details": "Modern AI is powered by deep learning. You need to become an expert in at least one of the major frameworks: TensorFlow or PyTorch. You'll go beyond just building models and learn how they work under the hood. You'll understand how to optimize them for performance, how to debug them, and how to use them for different tasks like computer vision and NLP.",
+          "resources": [
+            { "type": "Framework", "title": "PyTorch (Often preferred for research and flexibility)" },
+            { "type": "Framework", "title": "TensorFlow (Known for its robust production ecosystem)" },
+            { "type": "Course", "title": "DeepLearning.AI Specialization (Coursera)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building and training neural networks",
+            "CNNs for image data, RNNs/Transformers for text data",
+            "Using GPUs for training",
+            "Understanding the framework's ecosystem (e.g., TensorFlow Serving, TorchServe)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: MLOps - The Engineering of AI (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Learn to Productionize Models",
+          "details": "This is where you diverge from a data scientist. Your job is to take a trained model (often a file) and turn it into a live, scalable service that an application can use. This typically means wrapping the model in a high-performance API and deploying it. You need to think about latency, throughput, and reliability.",
+          "resources": [
+            { "type": "Framework", "title": "FastAPI or Flask (for building model APIs)" },
+            { "type": "Tool", "title": "BentoML (A framework for building production-ready AI applications)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building REST APIs for model inference",
+            "Handling concurrent requests",
+            "Model serialization (saving and loading models)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Master Containers and Cloud Deployment",
+          "details": "AI/ML applications are almost always deployed in containers using Docker. This ensures that the complex web of dependencies (Python libraries, system drivers, etc.) is perfectly replicated in production. You'll then take these containers and deploy them to the cloud, using services specifically designed for scalable model hosting.",
+          "resources": [
+            { "type": "Tool", "title": "Docker" },
+            { "type": "Platform", "title": "AWS SageMaker, Google AI Platform, or Azure Machine Learning" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating efficient Docker images for ML applications",
+            "Deploying models as scalable endpoints on a cloud platform",
+            "Understanding GPU instance types in the cloud"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Build ML Pipelines and Automation",
+          "details": "A model is not a one-time thing. Data changes, and models need to be retrained. MLOps (Machine Learning Operations) is about automating this entire lifecycle. You'll build automated pipelines that can pull new data, retrain a model, evaluate it, and deploy it to production if it performs well. This is CI/CD for machine learning.",
+          "resources": [
+            { "type": "Tool", "title": "Kubeflow or MLflow" },
+            { "type": "Concept", "title": "Feature Stores (like Feast)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Automating the training and deployment process",
+            "Model versioning and experiment tracking",
+            "Building reproducible ML workflows"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Advanced AI Systems Builder (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Focus on Data Engineering for ML",
+          "details": "The performance of your AI system is highly dependent on the quality and freshness of the data it's trained on. You need strong data engineering skills. This means knowing how to build efficient data pipelines to process raw data and transform it into features for your models, often in real-time.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Data Engineer Roadmap (specifically on pipelines and streaming)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building batch and streaming data pipelines",
+            "Using tools like Apache Spark and Kafka",
+            "Understanding data validation and quality checks"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Model Monitoring and Maintenance",
+          "details": "Once a model is in production, your job isn't done. You have to monitor it. Is the model's performance degrading over time (a concept called 'model drift')? Is the input data changing unexpectedly? You'll build systems to track model performance and data distributions, and set up alerts to know when something is wrong and a model needs to be retrained.",
+          "resources": [
+            { "type": "Concept", "title": "Monitoring for data drift and concept drift" },
+            { "type": "Tool", "title": "Prometheus, Grafana, and Evidently AI" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Logging model predictions and inputs",
+            "Setting up dashboards to track model metrics",
+            "Automating retraining triggers"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "High-Performance Computing & Optimization",
+          "details": "For cutting-edge AI, you need to squeeze every last drop of performance out of your hardware. This means going deeper. You'll learn how to optimize your models to run faster and use less memory, a process called model inference optimization. You might use techniques like quantization or pruning, or even compile your models to run directly on specific hardware.",
+          "resources": [
+            { "type": "Tool", "title": "NVIDIA TensorRT" },
+            { "type": "Tool", "title": "ONNX (Open Neural Network Exchange)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Model Quantization and Pruning",
+            "Model compilation",
+            "Distributed training for very large models"
+          ]
+        }
+      ]
+    }
+  ]
+}

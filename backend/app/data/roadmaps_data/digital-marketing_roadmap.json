@@ -1,0 +1,158 @@
+{
+  "title": "Digital Marketer Roadmap",
+  "description": "Welcome to the dynamic world of online growth. A Digital Marketer is a strategist and a scientist who uses the internet to attract, engage, and convert customers. You are a master of many disciplines, from search engines to social media, all with the goal of growing a business. This is your quest to master the art of marketing in the digital age.",
+  "slug": "digital-marketer",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Digital Presence (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Understand Marketing Fundamentals",
+          "details": "Before you can use the tools, you must understand the strategy. What is a marketing funnel? Who is your target audience? What is a value proposition? These core marketing principles apply to everything you will do. Understanding the 'why' behind the 'what' is what separates a tactician from a strategist.",
+          "resources": [
+            { "type": "Book", "title": "This Is Marketing by Seth Godin" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Marketing Funnel (Awareness, Consideration, Conversion, Loyalty)",
+            "Defining a Target Audience and Customer Personas",
+            "The 4 Ps of Marketing (Product, Price, Place, Promotion)",
+            "SWOT Analysis"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn Search Engine Optimization (SEO)",
+          "details": "SEO is the art and science of getting your website to show up on Google for free. It's about understanding what people are searching for and creating the best content on the internet to answer their questions. This is a long-term strategy that builds a sustainable source of traffic and authority for a business. It's one of the most valuable skills in digital marketing.",
+          "resources": [
+            { "type": "Guide", "title": "Moz's Beginner's Guide to SEO" },
+            { "type": "Tool", "title": "Google Search Console" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Keyword Research",
+            "On-Page SEO (Title tags, meta descriptions, content)",
+            "Technical SEO (Site speed, mobile-friendliness, sitemaps)",
+            "Off-Page SEO (Link building basics)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn Content Marketing",
+          "details": "Content is the fuel for almost all digital marketing. Content marketing is the practice of creating and distributing valuable, relevant, and consistent content (like blog posts, videos, and podcasts) to attract and retain a clearly defined audience. It's not about selling; it's about building trust and establishing your brand as a helpful expert.",
+          "resources": [
+            { "type": "Website", "title": "Content Marketing Institute" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating a content calendar",
+            "Writing for the web (clear, concise, scannable)",
+            "Understanding different content formats",
+            "Content distribution strategies"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Driving and Converting Traffic (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Learn Search Engine Marketing (SEM/PPC)",
+          "details": "If SEO is the free way to get on Google, SEM is the paid way. It's also known as Pay-Per-Click (PPC). You'll learn how to use platforms like Google Ads to run advertisements that appear at the top of search results. This is a powerful way to get immediate traffic and test what keywords and messaging resonate with your audience. It's a game of bidding, targeting, and optimization.",
+          "resources": [
+            { "type": "Course", "title": "Google Ads Certifications" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Setting up a Google Ads campaign",
+            "Keyword bidding and match types",
+            "Writing compelling ad copy",
+            "Understanding Quality Score",
+            "Landing page optimization"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Social Media Marketing (SMM)",
+          "details": "Social media is where you build a community and engage with your audience directly. This is about more than just posting. You need to understand which platforms your audience uses (Instagram, TikTok, LinkedIn, etc.), what kind of content works on each platform, and how to build an engaged following. You'll also learn how to use paid social ads to reach a highly specific audience.",
+          "resources": [
+            { "type": "Course", "title": "HubSpot's Social Media Marketing Course" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Platform-specific strategies",
+            "Community management",
+            "Running paid ad campaigns (e.g., on Facebook/Instagram Ads)",
+            "Social media analytics"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Learn Email Marketing",
+          "details": "Email is one of the most powerful and profitable marketing channels because you own the audience. You're not subject to the whims of Google's or Facebook's algorithms. You'll learn how to build an email list, how to write emails that people actually want to open, and how to use automation to send targeted messages at the right time. It's all about building a direct relationship with your subscribers.",
+          "resources": [
+            { "type": "Tool", "title": "Mailchimp or ConvertKit" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building an email list",
+            "Writing effective subject lines and copy",
+            "Segmentation and personalization",
+            "Creating automated email sequences (welcome series, nurture campaigns)",
+            "Understanding open rates and click-through rates"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Data-Driven Strategist (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Master Web Analytics",
+          "details": "You can't improve what you don't measure. Web analytics is the science of understanding user behavior on your website. You must master Google Analytics. It will tell you where your traffic is coming from, what pages people are visiting, and what actions they're taking. This data is the source of truth that will inform all of your marketing decisions.",
+          "resources": [
+            { "type": "Course", "title": "Google Analytics for Beginners" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Setting up Google Analytics",
+            "Understanding key metrics (Users, Sessions, Bounce Rate, Conversion Rate)",
+            "Tracking goals and events",
+            "Building custom reports and dashboards"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Learn Conversion Rate Optimization (CRO)",
+          "details": "Getting traffic to your website is only half the battle. CRO is the process of turning more of those visitors into customers. It's a systematic process of using data, psychology, and A/B testing to improve your website and landing pages. Even small changes can lead to huge increases in revenue. This is where marketing gets really scientific.",
+          "resources": [
+            { "type": "Website", "title": "CXL (ConversionXL) Blog" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "A/B testing and multivariate testing",
+            "User behavior analysis (using tools like Hotjar)",
+            "Understanding copywriting and persuasion",
+            "Formulating and testing hypotheses"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Develop a T-Shaped Skillset",
+          "details": "A 'T-shaped' marketer has a broad knowledge of all the digital marketing channels (the top of the T) and a deep, expert-level knowledge in one or two specific areas (the vertical stem of the T). You don't have to be the best at everything, but you should understand how all the pieces fit together. As you gain experience, go deep into the area you enjoy the most, whether it's SEO, PPC, or email marketing. This will make you incredibly valuable.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Specializing in an area of interest",
+            "Understanding how different channels work together",
+            "Developing a strategic mindset",
+            "Continuous learning to keep up with industry changes"
+          ]
+        }
+      ]
+    }
+  ]
+}

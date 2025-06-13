@@ -1,0 +1,153 @@
+{
+  "title": "Backend Developer Roadmap",
+  "description": "Step behind the curtain into the engine room of the internet. As a Backend Developer, you're the architect of the server-side logic, the master of databases, and the guardian of data. You build the powerful, invisible systems that make the frontend work. This is your quest to command the server.",
+  "slug": "backend-developer",
+  "stages": [
+    {
+      "title": "Phase 1: The Server-Side Apprentice (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Choose Your Weapon (A Programming Language)",
+          "details": "The backend can be built with many languages, each with its own culture and strengths. Node.js (JavaScript) is great if you're coming from the frontend. Python is beloved for its readability and is a powerhouse in data science and AI. Java is a workhorse, powering massive enterprise applications. Go is modern, fast, and built for concurrency. Don't agonize over the choice. Pick one that seems interesting and learn it well. The concepts you learn will transfer.",
+          "resources": [
+            { "type": "Language", "title": "Node.js (with Express framework)" },
+            { "type": "Language", "title": "Python (with Django or Flask framework)" },
+            { "type": "Language", "title": "Java (with Spring framework)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Syntax and Core Concepts of your chosen language",
+            "Package Management (npm for Node, pip for Python, Maven/Gradle for Java)",
+            "Handling HTTP Requests and Responses",
+            "Setting up a basic server"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Master the Database",
+          "details": "Every useful application needs to store data. Databases are the massive, organized libraries where all this information lives. You need to learn how to talk to them. You'll start with SQL databases (like PostgreSQL or MySQL), which store data in tables like a spreadsheet. Then you'll explore NoSQL databases (like MongoDB), which are more flexible and store data like JSON files. Your job is to design these databases, write queries to get data, and ensure data integrity.",
+          "resources": [
+            { "type": "Database", "title": "PostgreSQL (a powerful, open-source SQL database)" },
+            { "type": "Database", "title": "MongoDB (a popular NoSQL database)" },
+            { "type": "Course", "title": "SQL & Database Design A-Z (Udemy)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "SQL: Advanced JOINs, transactions, indexing for performance",
+            "NoSQL: Document-based storage, when to use it vs. SQL",
+            "Database Design: Normalization (for SQL), data modeling",
+            "ORMs/ODMs (e.g., Sequelize, Mongoose): Libraries that let you talk to databases using your programming language"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn to Build APIs",
+          "details": "An API (Application Programming Interface) is like a restaurant waiter. The frontend (the customer) makes a request ('I'd like the user data, please'). The API (the waiter) takes that request to the kitchen (the server and database), gets the data, and brings it back to the frontend. You will learn to build REST APIs, which are the standard way for web services to communicate. This is the core of what a backend developer does: creating secure and efficient endpoints for the frontend to use.",
+          "resources": [
+            { "type": "Guide", "title": "REST API Design Best Practices" },
+            { "type": "Tool", "title": "Postman or Insomnia (for testing your APIs)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "REST Principles: Understanding resources, HTTP verbs (GET, POST, PUT, DELETE)",
+            "API Design: Creating logical and predictable API endpoints",
+            "Data Formats: Working with JSON",
+            "Authentication & Authorization: Securing your API so only the right people can use it"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Professional Engineer (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Authentication and Security",
+          "details": "You are the guardian of the user's data. Security is not an afterthought; it's your #1 priority. You need to learn how to securely manage passwords (never store them in plain text!), implement authentication flows (like login/logout), and protect against common web vulnerabilities. This is a huge responsibility, but mastering it is what makes you a true professional.",
+          "resources": [
+            { "type": "Website", "title": "OWASP Top 10 (The list of the most critical web security risks)" },
+            { "type": "Guide", "title": "JWT (JSON Web Tokens) Handbook" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Password Hashing: Using libraries like bcrypt",
+            "Authentication Strategies: Session-based auth, Token-based auth (JWT)",
+            "Common Attacks: Protecting against SQL Injection, Cross-Site Scripting (XSS)",
+            "CORS (Cross-Origin Resource Sharing): A common headache you'll need to understand"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Version Control with Git",
+          "details": "Just like on the frontend, Git is your indispensable time machine and collaboration tool. On the backend, it's even more critical as you're managing the core logic and data structures. A mistake on the backend can have much bigger consequences, and Git is your safety net. Learn to write clear, descriptive commit messages – your future self will thank you.",
+          "resources": [
+            { "type": "Website", "title": "Git - The Simple Guide" },
+            { "type": "Tutorial", "title": "Learn Git Branching (Interactive)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Commands: git add, git commit, git push, git pull",
+            "Branching Strategies: GitFlow is a popular one for teams",
+            "Handling Environment Variables: Using `.gitignore` to keep secrets out of your repository"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Testing Your Backend",
+          "details": "How do you prove that your API works correctly and securely? You write automated tests. On the backend, testing is crucial for ensuring reliability. You'll write tests to check that your API endpoints return the right data, handle errors gracefully, and that your business logic is sound. This is how you build robust systems that don't fall over in the middle of the night.",
+          "resources": [
+            { "type": "Framework", "title": "Jest or Mocha (for JavaScript)" },
+            { "type": "Framework", "title": "Pytest (for Python)" },
+            { "type": "Concept", "title": "Unit, Integration, and End-to-End Testing" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Unit Testing: Testing individual functions or modules",
+            "Integration Testing: Testing how your code interacts with the database",
+            "API/E2E Testing: Testing your API endpoints from an external perspective"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Architect (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Deployment and DevOps Basics",
+          "details": "Writing code on your laptop is one thing. Running it on a server that can handle thousands of users is another. This is where you enter the world of DevOps. You'll learn how to package your application in a 'container' using Docker, which is like a standardized shipping container for code. Then you'll learn how to deploy this container to a cloud provider like AWS, Google Cloud, or Azure. This is how modern applications are brought to life.",
+          "resources": [
+            { "type": "Tool", "title": "Docker" },
+            { "type": "Platform", "title": "AWS, Google Cloud Platform (GCP), or Microsoft Azure" },
+            { "type": "Concept", "title": "CI/CD (Continuous Integration/Continuous Deployment)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Docker: Containerizing your application",
+            "Cloud Basics: Understanding VMs, managed databases, and object storage",
+            "Environment Variables: Managing configuration for different environments (dev, production)",
+            "CI/CD with tools like GitHub Actions to automate testing and deployment"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Advanced Architecture",
+          "details": "As your applications grow, you'll face new challenges: how to handle massive amounts of traffic? How to make your system resilient to failures? This is where you learn about advanced architectural patterns. You'll explore concepts like caching to speed up responses, message queues to handle background jobs, and microservices to break down a large application into smaller, manageable pieces. This is the path from being a coder to being an architect.",
+          "resources": [
+            { "type": "Tool", "title": "Redis (for caching)" },
+            { "type": "Tool", "title": "RabbitMQ or Kafka (for message queues)" },
+            { "type": "Concept", "title": "Microservices vs. Monoliths" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Caching Strategies: When and what to cache",
+            "Asynchronous Processing: Using message queues for long-running tasks",
+            "Scalability: Designing systems that can grow",
+            "System Design Principles: Thinking about the big picture"
+          ]
+        }
+      ]
+    }
+  ]
+}

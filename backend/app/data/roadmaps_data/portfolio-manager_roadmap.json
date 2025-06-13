@@ -1,0 +1,146 @@
+{
+  "title": "Portfolio Manager Roadmap",
+  "description": "Welcome, strategist of wealth and steward of capital. A Portfolio Manager is a senior financial professional who makes investment decisions for a pool of funds on behalf of clients. You're not just picking stocks; you're constructing and managing a diversified portfolio to achieve specific investment goals, balancing risk and return. This is your quest to master the art and science of investment management.",
+  "slug": "portfolio-manager",
+  "stages": [
+    {
+      "title": "Phase 1: The Analytical Foundation (Crucial First Steps)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master Financial Analysis",
+          "details": "You must be an expert at dissecting a business's financial health. This means going beyond just reading financial statements; you must analyze them to assess a company's performance, profitability, and risk. This is the foundational skill for determining the underlying value of any investment.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Financial Analyst Roadmap (Phase 1 & 2)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Deep understanding of the 3 financial statements",
+            "Financial ratio analysis (Liquidity, Profitability, Solvency)",
+            "Building 3-statement financial models",
+            "Advanced Excel proficiency"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn Investment Valuation",
+          "details": "Knowing what a company is worth is the heart of investing. You need to master the core valuation methodologies to determine a company's intrinsic value. This allows you to identify investments that are potentially undervalued by the market. You need to be able to answer the question: 'What is this asset truly worth?'",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Investment Banker Roadmap (Phase 2 on Valuation)" },
+            { "type": "Book", "title": "The Intelligent Investor by Benjamin Graham" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Discounted Cash Flow (DCF) analysis",
+            "Comparable Company Analysis (Comps)",
+            "Understanding different valuation multiples (P/E, EV/EBITDA)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Study Economics and Capital Markets",
+          "details": "No investment exists in a vacuum. You need a strong grasp of macroeconomics. How do interest rates, inflation, and GDP growth affect the stock market? You also need to understand the mechanics of the capital markets: how do stocks, bonds, and other securities trade? This broad perspective is crucial for making informed, top-down investment decisions.",
+          "resources": [
+            { "type": "Reading", "title": "The Wall Street Journal, The Economist, Bloomberg" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Macroeconomic indicators and their impact",
+            "Monetary and fiscal policy",
+            "Market structure and dynamics",
+            "Understanding different asset classes (equities, fixed income, alternatives)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Portfolio Construction and Management (The Core Role)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Modern Portfolio Theory (MPT)",
+          "details": "This is the theoretical framework for managing a portfolio. MPT shows how an investor can construct a portfolio to maximize expected return for a given level of risk. It's built on the idea that diversification – holding a mix of assets that are not perfectly correlated – is the key to reducing risk. Understanding concepts like the Efficient Frontier is fundamental.",
+          "resources": [
+            { "type": "Book", "title": "A Random Walk Down Wall Street by Burton Malkiel" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Risk and Return",
+            "Correlation and Diversification",
+            "The Efficient Frontier",
+            "The Capital Asset Pricing Model (CAPM) in practice"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Develop an Investment Philosophy",
+          "details": "Every portfolio manager has an investment philosophy – a core set of beliefs that guides their decisions. Are you a 'value' investor, looking for cheap stocks like Warren Buffett? Are you a 'growth' investor, looking for fast-growing companies? Or do you follow a quantitative strategy? You need to develop a consistent, disciplined approach that you can articulate and stick to, especially during tough markets.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Value vs. Growth investing",
+            "Top-down vs. Bottom-up analysis",
+            "Active vs. Passive management",
+            "Defining your own investment criteria"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Learn Asset Allocation and Portfolio Construction",
+          "details": "This is the practical application of your philosophy. How do you decide how much to invest in stocks vs. bonds? Within stocks, how much goes to large-cap vs. small-cap, or domestic vs. international? Asset allocation is the primary driver of a portfolio's returns. You'll learn how to construct a portfolio that is tailored to a client's specific goals, time horizon, and risk tolerance.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Strategic vs. Tactical Asset Allocation",
+            "Portfolio optimization",
+            "Rebalancing strategies"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Professional Investor (The Career Path)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Gain Experience as a Research Analyst",
+          "details": "The typical path to becoming a portfolio manager is to first work as a research analyst (or 'buy-side' analyst) at an asset management firm. In this role, you'll specialize in a specific industry or sector, conducting deep research on companies and making buy/sell recommendations to the portfolio managers. This is where you hone your analytical skills and build a track record.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Deep industry expertise",
+            "Writing detailed research reports and investment memos",
+            "Presenting and defending your investment ideas"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Consider a Professional Designation (CFA Charter)",
+          "details": "The Chartered Financial Analyst (CFA) designation is the global gold standard for the investment management industry. Earning the CFA charter is a rigorous process that involves passing three difficult exams and gaining relevant work experience. While not strictly required, it is highly respected and demonstrates a deep commitment to the profession and a mastery of the field.",
+          "resources": [
+            { "type": "Certification", "title": "The CFA Program" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Ethics and Professional Standards",
+            "Advanced topics in portfolio management and wealth planning",
+            "A globally recognized credential"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Develop Risk Management and Communication Skills",
+          "details": "A portfolio manager is also a risk manager. You are constantly assessing the risks in your portfolio and in the market. You also need to be an excellent communicator. You will be responsible for explaining your investment strategy and performance to clients or investment committees, especially during periods of market volatility. Building trust and managing client emotions is a critical part of the job.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Risk management techniques",
+            "Performance measurement and attribution",
+            "Client relationship management",
+            "Behavioral finance (understanding investor psychology)"
+          ]
+        }
+      ]
+    }
+  ]
+}

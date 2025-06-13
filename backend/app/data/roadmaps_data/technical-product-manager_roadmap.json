@@ -1,0 +1,133 @@
+{
+  "title": "Technical Product Manager Roadmap",
+  "description": "Welcome, translator between worlds. A Technical Product Manager (TPM) is a specialized PM who focuses on the 'how' as much as the 'what' and 'why'. You own the technical foundation of a product—the APIs, the platforms, the data pipelines—that other products are built upon. You are the product manager for engineers. This is your quest to master the art of building products for a technical audience.",
+  "slug": "technical-product-manager",
+  "stages": [
+    {
+      "title": "Phase 1: The Engineer's Mindset (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Build a Strong Technical Foundation",
+          "details": "This is what separates a TPM from a traditional PM. You must have a deep, genuine understanding of how software is built. While you don't need to be a senior engineer, you must be able to hold your own in a technical design discussion. A background in software engineering is the most common path to this role, but it can be learned through dedicated study.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Software Engineer Roadmap (Phase 1 & 2 are highly relevant)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Proficiency in a programming language",
+            "Data Structures & Algorithms",
+            "Understanding of system architecture (frontend, backend, database)",
+            "Experience with version control (Git)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Master Core Product Management Skills",
+          "details": "You are still a Product Manager. All the core responsibilities still apply. You must be an expert at understanding user needs (in this case, your users are often other developers), prioritizing work, and leading a team to execute. The difference is that your 'product' is often invisible to the end-user.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Product Manager Roadmap (Phase 1 & 2)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "User research (for developers)",
+            "Prioritization",
+            "Roadmapping",
+            "Agile/Scrum methodologies"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Owning the Technical Product (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Become an Expert in API Design",
+          "details": "For many TPMs, the API *is* the product. You need to become an expert in what makes a great API. A great API is easy to understand, well-documented, consistent, and powerful. You will be responsible for defining the API's contract, functionality, and user experience for the developers who will consume it.",
+          "resources": [
+            { "type": "Book", "title": "APIs: A Strategy Guide" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "RESTful API design principles",
+            "Understanding GraphQL as an alternative",
+            "API documentation (using standards like OpenAPI/Swagger)",
+            "API versioning strategies"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn System Design and Architecture",
+          "details": "You will be involved in high-level architectural decisions. How will this new system scale? What are the trade-offs between different database choices? How do we ensure the system is reliable and secure? You need to be able to think like a system architect, understanding the building blocks of modern software and how they fit together.",
+          "resources": [
+            { "type": "Book", "title": "Designing Data-Intensive Applications by Martin Kleppmann" },
+            { "type": "GitHub", "title": "System Design Primer" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Scalability and performance",
+            "Reliability and fault tolerance",
+            "Microservices vs. Monoliths",
+            "Caching strategies",
+            "Database design"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Focus on the 'Developer Experience' (DX)",
+          "details": "Just like a traditional PM obsesses over User Experience (UX), you will obsess over Developer Experience (DX). Your users are developers, and your product is the tools and platforms they use. Is your API documentation clear? Is it easy to get started with your platform? Are the error messages helpful? A great DX can dramatically increase the productivity and happiness of an entire engineering organization.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Creating world-class documentation",
+            "Building helpful SDKs (Software Development Kits)",
+            "Streamlining the onboarding process for developers",
+            "Gathering feedback from your internal developer customers"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Strategic Technologist (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Manage Technical Debt",
+          "details": "Technical debt is the implied cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer. As a TPM, you are a key player in managing this. You will work with engineering leaders to prioritize not just new features, but also the crucial work of refactoring, migrating, and paying down technical debt to ensure the long-term health of the system.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Quantifying the cost of technical debt",
+            "Making the business case for refactoring work",
+            "Balancing feature development with platform maintenance"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Drive Platform and Ecosystem Strategy",
+          "details": "A great technical product often becomes a 'platform' – a foundation that enables other teams to build new products and features faster. You will think strategically about how to evolve your product into a platform that creates leverage for the entire company. This involves thinking about extensibility, self-service capabilities, and creating a thriving internal ecosystem.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Platform thinking",
+            "Identifying opportunities for leverage",
+            "Creating a long-term technical vision and roadmap"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Act as the Translator Between Business and Engineering",
+          "details": "This is your ultimate superpower. You have the technical credibility to earn the trust of the engineering team and the product skills to understand the needs of the business. You are the translator who can explain complex technical constraints to business stakeholders and articulate the business goals behind a project to the engineering team. This ability to bridge the two worlds is what makes a TPM invaluable.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Communicating with technical and non-technical audiences",
+            "Building consensus between different stakeholders",
+            "Influencing without authority"
+          ]
+        }
+      ]
+    }
+  ]
+}

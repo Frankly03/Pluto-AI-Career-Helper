@@ -1,0 +1,148 @@
+{
+  "title": "Product Marketing Manager Roadmap",
+  "description": "Welcome, storyteller of innovation and voice of the product. A Product Marketing Manager (PMM) is the critical bridge between the product, the sales team, and the customer. You don't just market a product; you shape its story and drive its success in the market. You are a strategist, a communicator, and a customer expert. This is your quest to master the art of bringing products to market.",
+  "slug": "product-marketing-manager",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Market and Product (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Become an Expert on the Customer",
+          "details": "Your journey begins and ends with the customer. You must become the foremost expert on your target audience within the company. This goes beyond demographics. You need to deeply understand their problems, their daily workflows, what they value, and the language they use. This deep empathy is the foundation for all effective messaging and positioning.",
+          "resources": [
+            { "type": "Book", "title": "The Mom Test by Rob Fitzpatrick" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Conducting customer interviews and surveys",
+            "Creating detailed buyer personas",
+            "Analyzing customer feedback from sales and support calls"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Master the Market and Competitors",
+          "details": "You need to be the expert on the world your product lives in. Who are your competitors? What are their strengths and weaknesses? How do they position themselves? What are the broader market trends? This intelligence allows you to find your product's unique place in the market and articulate why it's the better choice.",
+          "resources": [
+            { "type": "Action", "title": "Sign up for your competitors' products. Read their marketing materials." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Competitive analysis",
+            "Market sizing and trend analysis",
+            "Creating battlecards to help sales teams win against competitors"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Deeply Understand the Product",
+          "details": "You have to know your product inside and out. Not just what it does, but *why* it was built and the value it delivers. You need to be one of the most knowledgeable people about the product in the entire company. This allows you to translate complex features into simple, compelling benefits that resonate with your target audience.",
+          "resources": [
+            { "type": "Action", "title": "Spend time with product managers and engineers. Use the product every day." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Understanding the product's features and functionality",
+            "Articulating the core value proposition",
+            "Knowing the product roadmap and future direction"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Crafting the Story and Go-to-Market Strategy (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Develop Positioning and Messaging",
+          "details": "This is the core of product marketing. **Positioning** is about defining who your product is for and what makes it unique in the market. **Messaging** is the set of words you use to communicate that position. You'll create a messaging framework that serves as the single source of truth for how the entire company talks about your product, ensuring a consistent story across the website, sales decks, and ads.",
+          "resources": [
+            { "type": "Book", "title": "Obviously Awesome by April Dunford" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating a positioning statement",
+            "Developing a messaging hierarchy (tagline, value props, benefit statements)",
+            "Tailoring messaging for different audience segments"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Create a Go-to-Market (GTM) Strategy",
+          "details": "A GTM strategy is the comprehensive plan for launching a new product or feature. It's your master blueprint. It defines the launch goals, the target audience, the pricing and packaging, the channels you'll use to reach your audience, and the roles and responsibilities of each team (product, marketing, sales, support). You are the conductor of this orchestra.",
+          "resources": [
+            { "type": "Template", "title": "Search for 'Go-to-Market Strategy Template'" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Setting clear launch goals and KPIs",
+            "Coordinating cross-functional teams",
+            "Project management",
+            "Pricing and packaging strategies"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Enable the Sales Team",
+          "details": "Your sales team is your megaphone. Sales enablement is the process of equipping them with the knowledge and materials they need to sell your product effectively. This is a critical function of product marketing. If your sales team can't confidently explain the value of your product, you will not succeed.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Creating sales decks and presentations",
+            "Writing product one-pagers and datasheets",
+            "Developing competitive battlecards",
+            "Training the sales team on new products and features"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: Driving Adoption and Growth (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Create Marketing Content and Campaigns",
+          "details": "You are responsible for creating the core content that tells your product's story. This isn't just blog posts; it's the high-value content that fuels the entire marketing engine. You'll work with the broader marketing team to launch integrated campaigns that drive awareness and demand for your product.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Creating landing pages",
+            "Developing customer case studies and testimonials",
+            "Producing webinars and product demo videos",
+            "Working with content, design, and demand generation teams"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Analyze Performance and Gather Feedback",
+          "details": "Your job doesn't end at launch. You need to be obsessed with the results. How is the product performing? Are customers adopting the new features? What is the feedback from the market? You'll use data from analytics tools and feedback from the sales team to measure the impact of your work and inform future product and marketing decisions.",
+          "resources": [
+            { "type": "Tool", "title": "Google Analytics, Mixpanel, Salesforce" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Tracking launch metrics and business KPIs",
+            "Analyzing product adoption and usage data",
+            "Creating a feedback loop between sales, customers, and product"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Become a Master of Influence",
+          "details": "A Product Marketing Manager, much like a Product Manager, leads through influence, not authority. You sit at the center of many teams. Your success depends on your ability to communicate clearly, build strong relationships, and align different stakeholders around a common goal. Your ability to be a compelling and trusted partner is your ultimate superpower.",
+          "resources": [
+            { "type": "Book", "title": "Crucial Conversations" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Cross-functional collaboration",
+            "Presenting to executive leadership",
+            "Communicating with technical and non-technical audiences",
+            "Building consensus"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# backend/requirements.txt
+fastapi>=0.100.0,<0.112.0
+uvicorn[standard]>=0.22.0,<0.30.0
+
+pydantic>=2.0.0,<3.0.0
+pydantic-settings>=2.0.0,<3.0.0
+
+httpx>=0.24.0,<0.28.0
+
+sentence-transformers>=2.2.0,<3.0.0
+torch>=1.9.0,<2.4.0
+torchvision
+torchaudio
+transformers>=4.20.0,<5.0.0
+numpy>=1.21.0,<2.0.0
+scikit-learn>=1.0.0,<1.6.0
+
+python-dotenv>=0.20.0,<2.0.0
+
+# Optional resume file parsing
+# pypdf2>=3.0.0,<4.0.0
+# python-docx>=0.8.11,<1.2.0
+
+# Add other dependencies as needed
+# Example:
+# psycopg2-binary # If using PostgreSQL
+# sqlalchemy # If using an ORM

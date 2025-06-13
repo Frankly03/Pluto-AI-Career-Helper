@@ -1,0 +1,261 @@
+{
+  "title": "Data Analyst Roadmap",
+  "description": "Your adventure into the world of data analysis starts here! This isn't just a list of tasks; it's a quest to become a data whisperer, someone who can find stories and secrets hidden within numbers. We'll focus on the real-world skills you need to collect, clean, analyze, and present data like a pro.",
+  "slug": "data-analyst",
+  "stages": [
+    {
+      "title": "Phase 1: The Apprentice's Toolkit (1-3 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Tame the Spreadsheet Beast",
+          "details": "Think of spreadsheets like Excel or Google Sheets as your trusty multi-tool. Before you can wield the legendary swords of code, you must master this fundamental weapon. It’s perfect for quick skirmishes with data and for understanding the basic landscape of your information. You'll be the go-to person for quick data questions, which is a great way to start building your reputation. This is where you learn to make data stand up and be counted before you ask it to dance.",
+          "resources": [
+            {
+              "type": "Course",
+              "title": "Excel Skills for Business Specialization - Macquarie University (Coursera)"
+            },
+            {
+              "type": "Website",
+              "title": "Excel Jet - Your Guide to Spreadsheet Wizardry"
+            },
+            {
+              "type": "YouTube",
+              "title": "ExcelIsFun - From Beginner to Pro"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Formulas: SUM, IF, COUNTIF, VLOOKUP, HLOOKUP, INDEX-MATCH",
+            "Data Cleaning: TEXT functions (TRIM, CLEAN), removing duplicates",
+            "Analysis: Pivot Tables, Sorting, Filtering",
+            "Visualization: Basic charts (Bar, Pie, Line), Conditional Formatting"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn SQL: The Language of Data",
+          "details": "Imagine a colossal library filled with every piece of information a company has ever collected. How do you find the one book you need? You ask the librarian in a language they understand. That language is SQL. It's the universal key to unlock and retrieve data from massive databases. Learning SQL is like gaining the ability to have a conversation with data, asking it questions like, 'Hey, which of our products is the most popular in the summer?' or 'Show me all the users who haven't logged in for a month.' It’s a non-negotiable skill for any data analyst.",
+          "resources": [
+            {
+              "type": "Website",
+              "title": "SQLZoo - Interactive SQL Tutorials"
+            },
+            {
+              "type": "Course",
+              "title": "Mode's SQL Tutorial for Data Analysis"
+            },
+            {
+              "type": "Practice",
+              "title": "HackerRank - SQL Challenges"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Commands: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY",
+            "Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN",
+            "Subqueries: Nested queries for complex questions",
+            "Window Functions: RANK(), DENSE_RANK(), LEAD(), LAG() for advanced analysis",
+            "Data Types: Understanding different types of data (e.g., VARCHAR, INT, DATETIME)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Grasp the Fundamentals of Statistics",
+          "details": "If SQL lets you get the data, statistics is the magic that helps you understand what it's trying to tell you. It's the difference between saying 'sales went up' and 'sales increased by 15% this quarter, a statistically significant rise likely driven by our new marketing campaign.' It’s the science of spotting trends, identifying anomalies, and making predictions. Without a solid grasp of stats, you're just a person with a lot of numbers, not a data analyst. You'll learn to separate the signal from the noise and gain the confidence to make sound judgments based on data.",
+          "resources": [
+            {
+              "type": "Book",
+              "title": "Naked Statistics: Stripping the Dread from the Data by Charles Wheelan"
+            },
+            {
+              "type": "Course",
+              "title": "Khan Academy - Statistics and Probability"
+            },
+            {
+                "type": "YouTube",
+                "title": "StatQuest with Josh Starmer - Making Stats Fun"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Descriptive Statistics: Mean, Median, Mode, Standard Deviation, Variance",
+            "Probability: Understanding likelihood and distributions",
+            "Inferential Statistics: Hypothesis Testing (A/B testing), p-values, Confidence Intervals",
+            "Correlation vs. Causation: The golden rule of data analysis!"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Leveling Up Your Arsenal (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Wield Python for Data Sorcery",
+          "details": "Spreadsheets are great, but they have their limits. When you need to handle massive datasets or perform complex transformations, you bring in the big guns: Python. Think of Python as an enchanted workshop where you can build powerful tools and automations. For a data analyst, you’re not learning all of Python; you're focusing on a specific set of spells for data manipulation, analysis, and visualization. This is what separates the apprentices from the true sorcerers of the data world. You'll be able to clean messy data with a few lines of code that would take hours in Excel.",
+          "resources": [
+            {
+              "type": "Course",
+              "title": "Python for Data Science and Machine Learning Bootcamp - Udemy"
+            },
+            {
+              "type": "Book",
+              "title": "Python for Data Analysis by Wes McKinney"
+            },
+            {
+              "type": "Practice",
+              "title": "Dataquest - Interactive Python for Data Science"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Pandas: The ultimate tool for data manipulation (DataFrames, Series, filtering, grouping)",
+            "NumPy: For high-performance numerical computing (arrays, mathematical operations)",
+            "Matplotlib & Seaborn: Your paintbrushes for creating beautiful and insightful data visualizations",
+            "Jupyter Notebooks: Your interactive lab for writing code, visualizing data, and telling stories"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Master the Art of Data Visualization",
+          "details": "A picture is worth a thousand rows of data. Tools like Tableau and Power BI are your canvas for turning boring numbers into stunning, interactive dashboards. This is where you become a data artist and a storyteller. Your job isn't just to find an insight but to present it in a way that your audience can understand in a glance. A well-designed dashboard can be the difference between your brilliant analysis being acted upon or being ignored. You'll learn how to guide your audience's eyes to the most important information, making the complex simple and the hidden obvious.",
+          "resources": [
+            {
+              "type": "Tutorial",
+              "title": "Tableau Public - Free to use and a great portfolio builder"
+            },
+            {
+              "type": "Course",
+              "title": "Microsoft Power BI Desktop for Business Intelligence - Udemy"
+            },
+            {
+              "type": "YouTube",
+              "title": "Guy in a Cube - Power BI and Business Intelligence Tips"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Dashboard Creation: Building interactive and user-friendly dashboards",
+            "Calculated Fields: Creating new data from your existing data",
+            "Data Connections: Connecting to various data sources (Excel, SQL databases)",
+            "Chart Types: Knowing when to use a bar chart, line chart, scatter plot, or map"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Go on Real-World Data Quests",
+          "details": "Learning theory is one thing, but applying it is where the real growth happens. It's time to venture into the wild and work with real, messy, unpredictable datasets. Find a topic that genuinely interests you – be it movies, sports, video games, or climate change – and start exploring. This is your chance to build a portfolio of projects that showcases your skills to future employers. Each dataset is a puzzle waiting to be solved. Document your journey: what questions did you ask? What challenges did you face? What were your 'aha!' moments? This is what interviewers will want to hear about.",
+          "resources": [
+            {
+              "type": "Website",
+              "title": "Kaggle - The home of data science competitions and datasets"
+            },
+            {
+              "type": "Website",
+              "title": "Google Dataset Search"
+            },
+            {
+              "type": "Website",
+              "title": "Data.world - The social network for data people"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Data Cleaning: Handling missing values, inconsistencies, and outliers",
+            "Exploratory Data Analysis (EDA): Discovering patterns and forming hypotheses",
+            "Project Documentation: Clearly explaining your process and findings",
+            "Version Control with Git/GitHub: Learning to save and share your code like a pro"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Polished Professional (Ongoing)",
+      "steps": [
+        {
+            "id": "3.1",
+            "name": "The 'Degree' Question: A Reality Check",
+            "details": "Let's talk about the elephant in the room: the university degree. While some companies might list a degree in a relevant field (like Computer Science, Statistics, or Economics) as a requirement, it's not the only path to becoming a data analyst. Think of a degree as a helpful tailwind, but not the ship itself. Many successful analysts are self-taught or come from completely different backgrounds. What truly matters is your demonstrated skill. A killer portfolio of projects, a strong GitHub profile, and a solid understanding of the fundamentals can often speak louder than a diploma. If you have a relevant degree, fantastic! If not, don't let it be a barrier; let your skills and projects be your proof.",
+            "resources": [],
+            "completed": false,
+            "key_learnings": [
+                "Skill-based hiring is on the rise",
+                "Portfolio projects are your evidence of competence",
+                "Certifications can help bridge the gap",
+                "Networking can open doors that degrees sometimes can't"
+            ]
+        },
+        {
+          "id": "3.2",
+          "name": "Develop Your Business Instinct",
+          "details": "A great data analyst understands that they are not just playing with numbers; they are helping a business win. You need to develop 'business acumen,' which is a fancy way of saying you need to understand what makes a business tick. What are its goals? How does it make money? What are its biggest challenges? When you can connect your data insights to these core business questions (like 'how can we reduce customer churn?' or 'what's our most profitable product line?'), you become invaluable. You move from being a 'data person' to a trusted advisor.",
+          "resources": [
+            {
+                "type": "Reading",
+                "title": "Follow industry publications like Harvard Business Review or The Economist"
+            },
+            {
+                "type": "Podcast",
+                "title": "Listen to business podcasts relevant to the industry you're interested in"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Key Performance Indicators (KPIs): Understanding the metrics that matter for a business",
+            "Industry Knowledge: Learning the specifics of the industry you want to work in (e.g., tech, finance, healthcare)",
+            "Stakeholder Management: Learning to work with different teams and understand their needs"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Become a Data Storyteller",
+          "details": "Finding a groundbreaking insight is only half the battle. If you can't explain it clearly and persuasively to a non-technical audience, it might as well have never happened. This is the art of data storytelling. It's about weaving a compelling narrative around your data, using visuals and simple language to take your audience on a journey of discovery. You're not just presenting a chart; you're presenting a conclusion and a recommendation. Your goal is to make your audience feel what you feel about the data and inspire them to take action.",
+          "resources": [
+            {
+              "type": "Book",
+              "title": "Storytelling with Data by Cole Nussbaumer Knaflic"
+            },
+            {
+              "type": "Course",
+              "title": "Udacity's Data Visualization Nanodegree"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Audience Awareness: Tailoring your communication style to your audience",
+            "Narrative Structure: Building a clear beginning, middle, and end to your data story",
+            "Presentation Skills: Confidently presenting your findings in meetings",
+            "Simplicity: The art of removing clutter and focusing on the core message"
+          ]
+        },
+        {
+          "id": "3.4",
+          "name": "Build Your Legend (Portfolio & Network)",
+          "details": "Your skills are your sword, but your portfolio is your shield, proudly displaying your victories. Create a personal website or a detailed GitHub profile to showcase your 3-5 best projects. But don't be a hermit in your data cave! Join the wider community. Get on LinkedIn and X (formerly Twitter), share what you're learning, and engage with other data professionals. Join online communities on Reddit (like r/dataanalysis) or local meetups. Networking isn't about awkwardly asking for a job; it's about building relationships, learning from others, and making your name known. Your next opportunity could come from a conversation you start today.",
+          "resources": [
+            {
+                "type": "Platform",
+                "title": "GitHub - for hosting your code and projects"
+            },
+            {
+                "type": "Platform",
+                "title": "LinkedIn - for professional networking and a personal brand"
+            },
+            {
+                "type": "Community",
+                "title": "Reddit communities like r/dataanalysis and r/datascience"
+            }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Portfolio Curation: Selecting your best and most relevant projects",
+            "Online Presence: Maintaining a professional and active profile",
+            "Informational Interviews: Talking to people in roles you admire",
+            "Continuous Learning: Staying up-to-date with the latest tools and trends"
+          ]
+        }
+      ]
+    }
+  ]
+}

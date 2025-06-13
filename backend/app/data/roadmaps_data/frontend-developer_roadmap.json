@@ -1,0 +1,153 @@
+{
+  "title": "Frontend Developer Roadmap",
+  "description": "Welcome, future architect of the web's visual universe! This roadmap is your guide to becoming a Frontend Developer, the creative force who builds the look, feel, and interactivity of every website and web application you use. You're not just writing code; you're crafting experiences.",
+  "slug": "frontend-developer",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundation of the Web (1-3 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "HTML: The Skeleton",
+          "details": "Think of HTML (HyperText Markup Language) as the skeleton of a webpage. It's the fundamental structure that holds everything together. You're not making things pretty yet; you're defining the core components: this is a heading, this is a paragraph, this is an image, this is a link. Mastering HTML is about understanding how to structure content logically and semantically, which is crucial for accessibility and search engines. It’s the unglamorous but absolutely essential first step.",
+          "resources": [
+            { "type": "Website", "title": "MDN Web Docs - HTML" },
+            { "type": "Course", "title": "freeCodeCamp - Responsive Web Design" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "HTML Tags: <html>, <head>, <body>, <h1>-<h6>, <p>, <a>, <img>, <div>, <span>",
+            "Semantic HTML: <header>, <footer>, <nav>, <main>, <section>, <article>",
+            "Forms: <form>, <input>, <textarea>, <button>",
+            "Accessibility (a11y) Basics: alt attributes for images, proper label usage"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "CSS: The Style and Skin",
+          "details": "If HTML is the skeleton, CSS (Cascading Style Sheets) is the skin, hair, and clothing. It's how you add color, layout, and personality to your website. You'll go from a black-and-white document to a vibrant, visually appealing design. This is where your artistic side comes out to play. You'll learn how to position elements, create beautiful typography, and even add animations. Modern CSS is incredibly powerful; think of it as being a digital interior designer.",
+          "resources": [
+            { "type": "Website", "title": "MDN Web Docs - CSS" },
+            { "type": "Game", "title": "CSS Diner - A fun game to learn CSS selectors" },
+            { "type": "Game", "title": "Flexbox Froggy & Grid Garden" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Selectors: Class, ID, Attribute, Pseudo-class selectors",
+            "The Box Model: Margin, Border, Padding, Content",
+            "Layouts: Flexbox, CSS Grid (these are your superpowers for layout)",
+            "Responsive Design: Using media queries to make your site look great on all devices",
+            "Transitions & Animations: Adding smooth visual effects"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "JavaScript: The Brains and Brawn",
+          "details": "Now for the magic. JavaScript (JS) is the programming language of the web. It's the brain that adds interactivity and intelligence to your website. If HTML is the skeleton and CSS is the skin, JavaScript is the nervous system and muscles. It makes things happen: when you click a button, a menu appears; when you submit a form, data is sent. Mastering JS fundamentals is the most critical part of your journey. It's the difference between a static brochure and a dynamic, engaging application.",
+          "resources": [
+            { "type": "Website", "title": "MDN Web Docs - JavaScript" },
+            { "type": "Book", "title": "Eloquent JavaScript by Marijn Haverbeke" },
+            { "type": "Course", "title": "The Modern JavaScript Bootcamp (Udemy)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Concepts: Variables (let, const), Data Types, Functions, Conditionals, Loops",
+            "DOM Manipulation: Selecting, creating, and changing HTML elements with JavaScript",
+            "Events: Handling user actions like clicks, scrolls, and key presses",
+            "Asynchronous JS: Fetch API, Promises, async/await for talking to servers"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Modern Toolkit (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Pick a JavaScript Framework",
+          "details": "You wouldn't build a skyscraper with just a hammer and nails. Modern web applications are complex, and frameworks provide the scaffolding and power tools to build them efficiently. React is the most popular, created by Facebook. Vue is known for being beginner-friendly, and Angular is a powerful, comprehensive solution from Google. Pick one and go deep. This is like choosing your specialty. You'll learn about components, state management, and building single-page applications (SPAs) that feel fast and responsive.",
+          "resources": [
+            { "type": "Course", "title": "React - The Complete Guide (Udemy)" },
+            { "type": "Course", "title": "Vue - The Complete Guide (Udemy)" },
+            { "type": "Course", "title": "Angular - The Complete Guide (Udemy)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Component-Based Architecture: Building UIs with reusable pieces",
+            "State Management: Handling how data flows through your application (e.g., React's useState/useReducer, Redux, Vuex)",
+            "Routing: Creating different 'pages' in a single-page application",
+            "Lifecycle Methods/Hooks: Understanding how components are born, live, and die"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Version Control with Git",
+          "details": "Imagine writing a huge essay and accidentally deleting a crucial chapter with no way to get it back. A nightmare, right? Git is a time machine for your code. It's a version control system that lets you save snapshots (called 'commits') of your project. It's essential for collaborating with other developers and for safely experimenting with new features. GitHub is the most popular place to store your Git projects online and is also your public portfolio.",
+          "resources": [
+            { "type": "Website", "title": "Git - The Simple Guide" },
+            { "type": "Tutorial", "title": "Learn Git Branching (Interactive)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Commands: git add, git commit, git push, git pull",
+            "Branching and Merging: Working on features in isolation and combining them",
+            "Resolving Merge Conflicts: The inevitable challenge of teamwork",
+            "GitHub Flow: Creating pull requests to review and merge code"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Build and Deploy Projects",
+          "details": "Theory is good, but building is better. This is the most important step: create things! Start with small projects like a to-do list or a weather app. Then, try to clone a website you admire. Each project will teach you something new and force you to solve real problems. 'Deploying' means putting your project on the live internet for everyone to see. Services like Netlify, Vercel, or GitHub Pages make this surprisingly easy. An online portfolio of live projects is your resume.",
+          "resources": [
+            { "type": "Inspiration", "title": "Frontend Mentor - Challenges with designs" },
+            { "type": "Deployment", "title": "Netlify or Vercel" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Problem Solving: The #1 skill you'll develop",
+            "Reading Documentation: Learning to find answers yourself",
+            "Debugging: Using browser dev tools to find and fix bugs",
+            "The Build Process: Using tools like Vite or Create React App"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: Becoming a Pro (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Testing Your Code",
+          "details": "How do you make sure your beautiful app doesn't break when you add a new feature? You write tests. Testing is like creating a safety net for your code. It automates the process of checking if things work as expected. This gives you and your team confidence to make changes quickly and safely. It might seem tedious at first, but it's a hallmark of a professional developer.",
+          "resources": [
+            { "type": "Framework", "title": "Jest (for unit tests)" },
+            { "type": "Library", "title": "React Testing Library or Cypress (for integration/e2e tests)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Unit Testing: Testing individual functions or components in isolation",
+            "Integration Testing: Testing how multiple components work together",
+            "End-to-End (E2E) Testing: Simulating a real user's journey through your app"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Web Performance and Accessibility",
+          "details": "A great website isn't just beautiful; it's fast and usable by everyone. Web performance is about making your site load quickly and run smoothly. This involves optimizing images, minimizing code, and understanding the rendering path. Accessibility (a11y) is the practice of ensuring people with disabilities can use your site. This is not just a 'nice to have'; it's a moral and often legal obligation. A professional developer builds for everyone.",
+          "resources": [
+            { "type": "Tool", "title": "Google Lighthouse (in Chrome DevTools)" },
+            { "type": "Guide", "title": "The A11Y Project" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Performance Metrics: Core Web Vitals (LCP, FID, CLS)",
+            "Optimization Techniques: Code splitting, lazy loading, image optimization",
+            "ARIA Attributes: Making custom components accessible to screen readers",
+            "Keyboard Navigation: Ensuring your site can be used without a mouse"
+          ]
+        }
+      ]
+    }
+  ]
+}

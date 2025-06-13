@@ -1,0 +1,162 @@
+{
+  "title": "Mobile App Developer Roadmap",
+  "description": "Welcome, creator of pocket-sized experiences. A Mobile App Developer builds the applications that we use every day on our phones and tablets. You have the power to create tools, games, and social platforms that live in the hands of billions. You'll blend technical skill with a deep understanding of user experience on a small screen. This is your quest to build the next great app.",
+  "slug": "mobile-app-developer",
+  "stages": [
+    {
+      "title": "Phase 1: Choose Your Path & Learn the Basics (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Decide: Native, Cross-Platform, or Both?",
+          "details": "This is your first major choice. Do you want to build for iOS (Apple) or Android (Google)? 'Native' development means using the official language and tools for each platform (Swift for iOS, Kotlin for Android). This gives the best performance and access to all features. 'Cross-Platform' development (using frameworks like React Native or Flutter) lets you write one set of code for both platforms, which can be faster. Many start by picking one native platform.",
+          "resources": [
+            { "type": "Path", "title": "iOS Native (Swift)" },
+            { "type": "Path", "title": "Android Native (Kotlin)" },
+            { "type": "Path", "title": "Cross-Platform (React Native or Flutter)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Understanding the pros and cons of each approach",
+            "Performance vs. development speed trade-offs",
+            "Market share of iOS vs. Android in your target region"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn the Language and Framework",
+          "details": "Once you've chosen your path, it's time to learn the tools. Each path has its own language and core framework for building user interfaces. You'll learn the syntax of the language and how to use the framework to lay out screens, buttons, and other visual elements. This is the fundamental skill of building what the user sees.",
+          "resources": [
+            { "type": "iOS", "title": "Learn Swift and the SwiftUI framework" },
+            { "type": "Android", "title": "Learn Kotlin and the Jetpack Compose framework" },
+            { "type": "Cross-Platform", "title": "Learn Dart for Flutter or JavaScript/TypeScript for React Native" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core programming fundamentals of your chosen language",
+            "Building basic UI layouts",
+            "Handling user input (button taps, text input)",
+            "Navigating between different screens in an app"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Master Version Control with Git",
+          "details": "Just like any other software development, you need Git. It's the essential tool for tracking changes in your code, collaborating with others, and saving yourself from disastrous mistakes. Learn it early, use it for every project, no matter how small. It is a non-negotiable professional skill.",
+          "resources": [
+            { "type": "Website", "title": "Git - The Simple Guide" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Git commands",
+            "Branching and merging",
+            "Using a .gitignore file to exclude build files"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Building Functional Apps (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Understand the App Lifecycle",
+          "details": "A mobile app isn't always running. It can be in the foreground, in the background, or terminated by the operating system to save battery. You need to understand this 'lifecycle'. What happens when the user gets a phone call while using your app? What should you save when the app is about to close? Handling this correctly is key to creating a smooth, professional user experience.",
+          "resources": [
+            { "type": "Documentation", "title": "Apple's App Lifecycle Docs (for iOS)" },
+            { "type": "Documentation", "title": "Android's Activity Lifecycle Docs" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Understanding different app states (active, background, suspended)",
+            "Saving and restoring state",
+            "Efficient background processing"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Networking and Working with APIs",
+          "details": "Most apps are not self-contained; they talk to the internet. You need to learn how to make network requests to get data from a server. This usually means working with REST APIs, fetching data (often in JSON format), and displaying it in your app. This is how you build a weather app, a social media app, or an e-commerce app.",
+          "resources": [
+            { "type": "Concept", "title": "What is a REST API?" },
+            { "type": "Library", "title": "Alamofire (iOS), Retrofit (Android), or Axios (React Native)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Making GET, POST, PUT, DELETE requests",
+            "Parsing JSON data into native objects",
+            "Handling network errors and loading states",
+            "Asynchronous programming"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Data Persistence",
+          "details": "What happens to the user's data when they close the app? You need to save it. This is called data persistence. For simple data, you can use the built-in storage mechanisms (like UserDefaults or SharedPreferences). For more complex, structured data, you'll need to learn how to use a local database that lives inside your app.",
+          "resources": [
+            { "type": "Database", "title": "SQLite (The classic choice)" },
+            { "type": "Database", "title": "Realm or Core Data (More advanced options)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Storing key-value data",
+            "Setting up and using a local database",
+            "Creating, reading, updating, and deleting (CRUD) data"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Polished App Developer (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Focus on UI/UX and Mobile Design Patterns",
+          "details": "Mobile users have high expectations. An app must not only be functional, but also beautiful and intuitive. You need to learn the specific design guidelines for the platform you're building for. This includes understanding navigation patterns, touch targets, and how to create a visually pleasing interface that feels at home on the device.",
+          "resources": [
+            { "type": "Guidelines", "title": "Apple's Human Interface Guidelines (for iOS)" },
+            { "type": "Guidelines", "title": "Google's Material Design (for Android)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Platform-specific UI conventions",
+            "Responsive design for different screen sizes (phones vs. tablets)",
+            "Creating smooth animations and transitions"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Learn Dependency Management",
+          "details": "You won't build everything from scratch. You'll use third-party libraries to do things like make network requests or show pretty charts. A dependency manager is a tool that helps you easily add, update, and manage these libraries in your project. It's an essential tool for professional development.",
+          "resources": [
+            { "type": "Tool", "title": "Swift Package Manager or CocoaPods (iOS)" },
+            { "type": "Tool", "title": "Gradle (Android)" },
+            { "type": "Tool", "title": "NPM or Yarn (React Native)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Adding and removing dependencies",
+            "Understanding versioning",
+            "Resolving dependency conflicts"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Publish to the App Store",
+          "details": "The final step is sharing your creation with the world. This means learning the process of submitting your app to the Apple App Store or Google Play Store. It's a detailed process that involves creating app listings, taking screenshots, following platform rules, and going through a review process. Seeing your app live on the store is one of the most rewarding moments for any developer.",
+          "resources": [
+            { "type": "Guide", "title": "Apple's App Store Submission Tutorial" },
+            { "type": "Guide", "title": "Google's Play Store Submission Guide" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The app submission process",
+            "Creating app store assets (icons, screenshots)",
+            "Understanding app store guidelines and review processes",
+            "Testing and debugging with TestFlight or Google Play Console"
+          ]
+        }
+      ]
+    }
+  ]
+}

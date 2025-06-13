@@ -1,0 +1,164 @@
+{
+  "title": "Product Manager Roadmap",
+  "description": "Welcome, captain of the ship. The Product Manager (PM) is the voice of the user, the strategist for the business, and the coordinator for the team. You don't manage people; you manage the product's journey from an idea to a successful reality. You operate at the intersection of Business, Technology, and User Experience (UX). This is your quest to learn how to build the right product, and build the product right.",
+  "slug": "product-manager",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Product Thinking (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Develop Deep User Empathy",
+          "details": "Your most important job is to be the champion of the user. You must develop a deep, almost obsessive empathy for their problems, needs, and desires. This isn't about what you think would be cool; it's about what will genuinely solve a problem for them. You'll learn how to talk to users, observe their behavior, and translate their needs into product insights. Everything starts with the user.",
+          "resources": [
+            { "type": "Book", "title": "The Mom Test by Rob Fitzpatrick" },
+            { "type": "Book", "title": "Inspired: How to Create Tech Products Customers Love by Marty Cagan" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Conducting user interviews and surveys",
+            "Creating user personas and journey maps",
+            "Distinguishing user 'wants' from 'needs'",
+            "Problem discovery techniques"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Understand Business and Strategy",
+          "details": "A great product doesn't just make users happy; it achieves business goals. You need to understand the fundamentals of how a business operates. What is the business model? Who are the competitors? What is the market landscape? You are responsible for ensuring that the product you're building is not just a cool feature, but a strategic asset that will help the company succeed.",
+          "resources": [
+            { "type": "Book", "title": "Blue Ocean Strategy by W. Chan Kim" },
+            { "type": "Concept", "title": "Porter's Five Forces" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Market research and competitive analysis",
+            "Defining and tracking Key Performance Indicators (KPIs)",
+            "Understanding different business models (SaaS, e-commerce, etc.)",
+            "Creating a product vision and strategy"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn the Language of Technology",
+          "details": "You don't need to be a coder, but you must understand the language of technology. You'll be working with engineers every single day, and you need to be able to have intelligent conversations with them. You should understand how the internet works, what an API is, the difference between frontend and backend, and the basics of how software is built. This builds credibility and allows you to understand what is feasible and what isn't.",
+          "resources": [
+            { "type": "Course", "title": "Harvard's CS50: Introduction to Computer Science (Watch the lectures)" },
+            { "type": "Guide", "title": "APIs for Product Managers" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Technical feasibility assessment",
+            "Understanding the software development lifecycle (Agile/Scrum)",
+            "Communicating effectively with engineers",
+            "Understanding technical debt"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Product Lifecycle in Action (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Product Discovery and Validation",
+          "details": "Ideas are cheap. The critical skill of a PM is to figure out which ideas are worth building. This is the 'discovery' process. You'll learn how to quickly and cheaply test your assumptions before writing a single line of code. This involves creating prototypes, running experiments, and gathering data to validate that you are, in fact, building something people want.",
+          "resources": [
+            { "type": "Book", "title": "The Lean Startup by Eric Ries" },
+            { "type": "Book", "title": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days by Jake Knapp" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building MVPs (Minimum Viable Products)",
+            "A/B Testing and experimentation",
+            "Using prototyping tools like Figma or Balsamiq",
+            "Defining hypotheses and success metrics"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "The Art of Prioritization",
+          "details": "You will always have more ideas and requests than your team can possibly build. Your second most important job is to decide what gets built now, what gets built later, and what doesn't get built at all. This is a constant balancing act between user value, business impact, and technical effort. You'll learn various frameworks to help you make these tough decisions objectively.",
+          "resources": [
+            { "type": "Frameworks", "title": "RICE (Reach, Impact, Confidence, Effort)" },
+            { "type": "Frameworks", "title": "MoSCoW (Must have, Should have, Could have, Won't have)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building and managing a product backlog",
+            "Creating product roadmaps",
+            "Stakeholder management and saying 'no'",
+            "Making data-driven decisions"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Execution and Delivery",
+          "details": "Once a decision is made, you are responsible for guiding the team to deliver it. This means translating the 'what' and 'why' into clear specifications for the design and engineering teams. You'll learn to write effective user stories, define acceptance criteria, and work within an agile framework like Scrum to ensure a smooth and predictable delivery process. You are the glue that holds the team together.",
+          "resources": [
+            { "type": "Guide", "title": "What is Agile and Scrum?" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Writing clear user stories and epics",
+            "Working with designers and engineers",
+            "Participating in agile ceremonies (sprint planning, stand-ups, retrospectives)",
+            "Unblocking your team"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Influential Leader (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Develop Communication and Storytelling Skills",
+          "details": "A PM's primary tool is influence, not authority. You will spend your days communicating: presenting to executives, aligning with stakeholders, and motivating your team. You need to become an exceptional communicator and storyteller. You must be able to articulate the product vision so clearly and compellingly that everyone is excited to help you build it.",
+          "resources": [
+            { "type": "Book", "title": "Crucial Conversations" },
+            { "type": "Practice", "title": "Practice public speaking and writing regularly" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Presenting to different audiences",
+            "Writing clear and concise documents (PRDs, strategy docs)",
+            "Active listening",
+            "Negotiation and persuasion"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Master Data Analysis",
+          "details": "Gut feeling is important, but data is king. You need to be comfortable with data. This means defining the right metrics to track, using analytics tools to understand user behavior, and interpreting the results of experiments. You don't need to be a data scientist, but you need to be able to ask the right questions of your data and use the answers to guide your decisions.",
+          "resources": [
+            { "type": "Tool", "title": "Google Analytics, Mixpanel, or Amplitude" },
+            { "type": "Skill", "title": "Basic SQL for querying data yourself" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Defining product metrics (e.g., AARRR pirate metrics)",
+            "Building and analyzing funnels",
+            "Cohort analysis",
+            "Communicating insights from data"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Go-to-Market and Product Marketing",
+          "details": "Building a great product is only half the battle. You also need to launch it successfully. This involves working closely with marketing, sales, and support teams to craft the right messaging, define the pricing and packaging, and ensure the organization is ready to sell and support your product. A PM is responsible for the product's success from conception all the way to the customer's hands.",
+          "resources": [
+            { "type": "Book", "title": "Crossing the Chasm by Geoffrey A. Moore" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Product positioning and messaging",
+            "Working cross-functionally with go-to-market teams",
+            "Gathering feedback post-launch",
+            "Managing the product lifecycle"
+          ]
+        }
+      ]
+    }
+  ]
+}

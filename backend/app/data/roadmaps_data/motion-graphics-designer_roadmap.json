@@ -1,0 +1,159 @@
+{
+  "title": "Motion Graphics Designer Roadmap",
+  "description": "Welcome, animator of ideas and magician of movement. A Motion Graphics Designer takes static graphic design and brings it to life with animation, video, and sound. You create everything from slick title sequences and explainer videos to eye-catching social media ads. You blend the skills of a graphic designer with the timing of an animator. This is your quest to master the art of design in motion.",
+  "slug": "motion-graphics-designer",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Design and Motion (2-4 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master Graphic Design Fundamentals",
+          "details": "You can't have motion graphics without 'graphics'. A strong foundation in graphic design principles is absolutely essential. Before you make anything move, you must be able to create a strong, well-composed static image. All the rules of typography, color, and layout still apply, and they are even more important when a design is moving.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Graphic Designer Roadmap (Phase 1)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Layout and Composition",
+            "Color Theory",
+            "Typography",
+            "Visual Hierarchy"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn the 12 Principles of Animation",
+          "details": "These principles were developed by Disney animators in the 1930s, but they are the timeless foundation for all believable motion. They are the 'physics' of animation. Learning concepts like 'squash and stretch' and 'timing' will make your animations feel fluid, natural, and alive. This is what separates robotic movement from compelling animation.",
+          "resources": [
+            { "type": "Book", "title": "The Animator's Survival Kit by Richard Williams" },
+            { "type": "YouTube", "title": "Search for 'The 12 Principles of Animation explained'" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Timing and Spacing",
+            "Squash and Stretch",
+            "Anticipation",
+            "Ease In and Ease Out (Slowing in and out of a movement)",
+            "Arcs"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Master Adobe After Effects",
+          "details": "After Effects is the undisputed king of motion graphics software. It is the industry standard. This is where you will spend most of your time. You need to learn its interface, its core concepts like layers, compositions, and keyframes, and its vast array of effects. Your proficiency in After Effects will directly determine what you are able to create.",
+          "resources": [
+            { "type": "Software", "title": "Adobe After Effects" },
+            { "type": "Course", "title": "School of Motion - After Effects Kickstart" },
+            { "type": "YouTube", "title": "Video Copilot, Ben Marriott" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The interface (Timeline, Compositions)",
+            "Keyframe animation and the Graph Editor (for smooth motion)",
+            "Shape Layers and Text Animators",
+            "Masking and Track Mattes",
+            "Parenting and Pre-composing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Building Your Skills (3-6 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Learn to Use Illustrator and Photoshop with After Effects",
+          "details": "After Effects doesn't live in a vacuum. You will prepare your assets (the graphics you want to animate) in other programs first. You'll use Adobe Illustrator to create vector artwork (like logos and characters) and Photoshop for image-based assets. Learning how to properly prepare and import these files into After Effects is a crucial workflow skill.",
+          "resources": [
+            { "type": "Tutorial", "title": "Search for 'Illustrator to After Effects workflow'" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Preparing layered files in Illustrator and Photoshop",
+            "Importing files as compositions",
+            "Using vector files in After Effects for clean scaling"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Recreate Work You Admire",
+          "details": "The best way to learn is to deconstruct the work of professionals. Find a short animation or title sequence that you love and try to recreate it from scratch. This is a powerful exercise that will force you to solve real-world problems and figure out 'how did they do that?'. You will learn new techniques and build your skills incredibly quickly this way.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Problem-solving",
+            "Learning advanced techniques",
+            "Developing an eye for detail"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Learn about Sound Design",
+          "details": "Motion is never silent. Sound design is a critical component of great motion graphics. The right sound effects can make your animations feel more impactful and satisfying. The right music can set the entire tone of a piece. You need to learn how to choose and edit audio to complement your visuals.",
+          "resources": [
+            { "type": "Software", "title": "Adobe Audition (for audio editing)" },
+            { "type": "Website", "title": "Freesound.org" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Finding and using sound effects",
+            "Syncing animation to a music track",
+            "Basic audio editing and mixing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Professional Motion Designer (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Explore a Specialization (2D, 3D, etc.)",
+          "details": "Motion graphics is a broad field. You can specialize in many different areas. Do you love character animation? Do you prefer sleek, corporate explainer videos? Are you interested in integrating 3D elements into your work? Finding a niche can help you focus your learning and market yourself as an expert.",
+          "resources": [
+            { "type": "Software", "title": "Cinema 4D or Blender (for 3D)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "2D Character Animation (using plugins like Duik or Limber)",
+            "3D integration",
+            "Data visualization",
+            "Title design"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Build Your Demo Reel",
+          "details": "In motion graphics, your demo reel is everything. It's a fast-paced, 30-60 second video that showcases your absolute best animation work. It's your visual resume and the primary tool you'll use to get jobs. It should be exciting, well-paced, and perfectly synced to a great music track. Only include your best work.",
+          "resources": [
+            { "type": "Platform", "title": "Vimeo and Behance are the best places to host your reel" },
+            { "type": "Inspiration", "title": "School of Motion's 'Best Demo Reels' articles" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Curating your best pieces",
+            "Editing for maximum impact",
+            "Choosing the right music",
+            "Showcasing a variety of skills"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Understand the Business and Client Side",
+          "details": "Being a great artist isn't enough; you also need to be a professional. This means understanding how to work with clients, how to interpret a creative brief, and how to manage your time and projects. You need to learn about pricing your work, writing contracts, and handling feedback constructively. These business skills are what will allow you to build a sustainable career.",
+          "resources": [
+            { "type": "Book", "title": "The Freelance Manifesto by Joey Korenman" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Project management",
+            "Client communication",
+            "Pricing and negotiation",
+            "Time management"
+          ]
+        }
+      ]
+    }
+  ]
+}

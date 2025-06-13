@@ -1,0 +1,163 @@
+{
+  "title": "Software Engineer Roadmap",
+  "description": "Embark on the path of the digital builder. A Software Engineer is a problem-solver who uses the principles of computer science and engineering to design, develop, test, and maintain software. This is a broader path than just web development, focusing on the fundamental principles that apply to all software, from mobile apps to operating systems. This is your journey to becoming a master craftsperson of code.",
+  "slug": "software-engineer",
+  "stages": [
+    {
+      "title": "Phase 1: The Core Principles (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Choose a Foundational Language",
+          "details": "Your first step is to learn a versatile, powerful programming language. Unlike more specialized roles, here it's beneficial to start with a language that exposes you to core computer science concepts. Python is excellent for its readability and versatility. Java or C# are great for understanding object-oriented programming. C++ is the choice if you want to get close to the machine. The goal is not just to learn syntax, but to understand how programming languages work.",
+          "resources": [
+            { "type": "Language", "title": "Python, Java, or C++" },
+            { "type": "Course", "title": "Harvard's CS50: Introduction to Computer Science" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Programming Concepts: Variables, Control Flow, Functions, I/O",
+            "Memory Management (especially in C++)",
+            "Compilation vs. Interpretation",
+            "Basic debugging"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Data Structures & Algorithms (The Holy Grail)",
+          "details": "This is the single most important topic for a software engineer. Data Structures are ways of organizing data (like arrays, linked lists, trees, graphs), and Algorithms are the step-by-step instructions for manipulating that data (like sorting and searching). Mastering DSA is how you learn to write efficient, scalable code. It's the language of technical interviews and the foundation of all serious software engineering. This is what separates a coder from an engineer.",
+          "resources": [
+            { "type": "Book", "title": "Grokking Algorithms by Aditya Bhargava" },
+            { "type": "Course", "title": "Algorithms Specialization by Stanford (Coursera)" },
+            { "type": "Practice", "title": "LeetCode, HackerRank" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Big O Notation: Analyzing the efficiency of your code",
+            "Common Data Structures: Arrays, Strings, Linked Lists, Stacks, Queues, Hash Tables, Trees, Heaps, Graphs",
+            "Common Algorithms: Sorting (Quicksort, Mergesort), Searching (Binary Search), Graph Traversal (BFS, DFS), Recursion"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn Object-Oriented Programming (OOP)",
+          "details": "OOP is a paradigm for organizing your code that is used in countless applications. It's based on the concept of 'objects,' which bundle data and the functions that operate on that data. Think of it as creating blueprints (classes) for building things (objects) in your code. It helps in writing modular, reusable, and maintainable code for large and complex systems.",
+          "resources": [
+            { "type": "Book", "title": "Head First Design Patterns" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Four Pillars: Encapsulation, Abstraction, Inheritance, Polymorphism",
+            "Classes and Objects",
+            "SOLID Principles of design"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Practical Engineer (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Version Control with Git",
+          "details": "In the world of software engineering, code is written by teams. Git is the universal tool that allows teams to collaborate effectively. It's your time machine, your collaboration hub, and your safety net. Learning to use it professionally, including understanding branching strategies and resolving conflicts, is a non-negotiable skill.",
+          "resources": [
+            { "type": "Website", "title": "Git - The Simple Guide" },
+            { "type": "Tutorial", "title": "Learn Git Branching (Interactive)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Branching Strategies (GitFlow)",
+            "Writing effective commit messages",
+            "Interactive Rebase",
+            "Code Reviews using Pull Requests"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn about Databases",
+          "details": "Almost all software needs to persist data. You need a solid understanding of how databases work. This includes both SQL databases (like PostgreSQL) that are structured and reliable, and NoSQL databases (like MongoDB or DynamoDB) that offer more flexibility. You should understand the trade-offs between them and how to model your data for each.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Backend Developer Roadmap (Database section)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "SQL and Relational Database Design",
+            "NoSQL Data Modeling",
+            "Indexes and Query Optimization",
+            "Transactions and Concurrency"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Understand Computer Networks & The Internet",
+          "details": "How does your code on a server talk to a user's browser across the world? You need to understand the fundamentals of how the internet works. This includes the TCP/IP model, what HTTP is, how DNS resolves domain names, and the basics of how data travels across networks. This knowledge is crucial for building any kind of distributed system.",
+          "resources": [
+            { "type": "Video", "title": "How the Internet Works in 5 Minutes" },
+            { "type": "Book", "title": "Computer Networking: A Top-Down Approach" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "TCP/IP vs OSI Model",
+            "HTTP/HTTPS protocols",
+            "What is an IP Address and DNS?",
+            "Basics of REST APIs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The System Builder (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Learn about Operating Systems",
+          "details": "Your code doesn't run in a vacuum; it runs on an operating system (like Linux, Windows, or macOS). Understanding the basics of how an OS works – things like processes, threads, memory management, and file systems – gives you a much deeper understanding of how your software actually behaves and performs. For many backend roles, proficiency with the Linux command line is essential.",
+          "resources": [
+            { "type": "Book", "title": "Operating System Concepts" },
+            { "type": "Tutorial", "title": "The Linux Command Line" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Processes and Threads",
+            "Concurrency and Parallelism",
+            "Virtual Memory",
+            "Linux Command Line (CLI) proficiency"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Software Development Lifecycle & Testing",
+          "details": "Professional software isn't just written; it's engineered. This means following a process that includes planning, designing, building, testing, and deploying. You need to learn about methodologies like Agile and Scrum. Most importantly, you must embrace testing as a core part of development. Writing unit, integration, and end-to-end tests is a hallmark of a professional engineer.",
+          "resources": [
+            { "type": "Guide", "title": "What is Agile Methodology?" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Agile and Scrum methodologies",
+            "Unit, Integration, and E2E Testing",
+            "CI/CD (Continuous Integration/Continuous Deployment)",
+            "The importance of code reviews"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "System Design",
+          "details": "This is where everything comes together. System design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. How would you design a system like Twitter or Netflix? This is a common topic in senior engineering interviews and it requires you to think at a high level about scalability, reliability, and trade-offs. It's the art and science of engineering large, complex systems.",
+          "resources": [
+            { "type": "Book", "title": "Designing Data-Intensive Applications by Martin Kleppmann" },
+            { "type": "GitHub", "title": "System Design Primer" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Scalability (Vertical vs. Horizontal)",
+            "Load Balancing",
+            "Caching",
+            "Database Sharding",
+            "Microservices vs. Monoliths"
+          ]
+        }
+      ]
+    }
+  ]
+}

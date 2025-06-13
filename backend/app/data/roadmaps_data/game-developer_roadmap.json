@@ -1,0 +1,162 @@
+{
+  "title": "Game Developer Roadmap",
+  "description": "Welcome, creator of worlds and architect of fun. A Game Developer brings interactive experiences to life, blending artistry and technology to create the games that captivate millions. You're not just writing code; you're crafting emotions, challenges, and stories. This is your epic quest to learn how to build your own games from the ground up.",
+  "slug": "game-developer",
+  "stages": [
+    {
+      "title": "Phase 1: The Player Becomes the Maker (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Choose Your Game Engine",
+          "details": "A game engine is your digital workshop. It's a powerful suite of tools that handles the hard stuff like rendering graphics, playing sounds, and simulating physics, so you can focus on making your game. The two giants are Unity and Unreal Engine. Unity (using C#) is famous for its flexibility and is a fantastic starting point for indie and mobile games. Unreal (using C++) is a graphics powerhouse known for stunning AAA titles.",
+          "resources": [
+            { "type": "Engine", "title": "Unity (Recommended for beginners)" },
+            { "type": "Engine", "title": "Unreal Engine (For high-fidelity graphics)" },
+            { "type": "Engine", "title": "Godot (A great open-source option)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Navigating the engine's interface",
+            "Understanding GameObjects/Actors, Components, and Scenes",
+            "Using the asset pipeline to import art and sound",
+            "Creating basic levels"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn the Language of Your Engine",
+          "details": "To command your engine, you must speak its language. For Unity, this is C#. For Unreal, it's C++. You don't need to be a master computer scientist, but you need a solid grasp of programming fundamentals. You'll learn how to write scripts that control player movement, enemy behavior, and the rules of your game world.",
+          "resources": [
+            { "type": "Course", "title": "Complete C# Unity Game Developer 2D/3D (Udemy)" },
+            { "type": "Course", "title": "Unreal Engine C++ Developer: Learn C++ and Make Video Games (Udemy)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core programming concepts (variables, functions, loops, conditionals)",
+            "Object-Oriented Programming (Classes and Objects)",
+            "Engine-specific API (e.g., MonoBehaviour in Unity)",
+            "Basic debugging to find and fix your mistakes"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Master Version Control with Git",
+          "details": "Game development involves code, art, sound, and level files. It's incredibly complex. Git is your time machine and safety net. It allows you to save snapshots of your project, so you can always go back if you break something. It's also essential for working with a team. Learning to use it early will save you from future heartbreak.",
+          "resources": [
+            { "type": "Tutorial", "title": "Using Git with Unity or Unreal Engine" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core Git commands (commit, push, pull)",
+            "Branching to work on new features safely",
+            "Using a Git client like GitHub Desktop or Sourcetree",
+            "Setting up Git LFS (Large File Storage) for big art assets"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Building Your First Games (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Clone the Classics",
+          "details": "The best way to learn is by doing. Don't try to build your dream MMO right away. Start by recreating the classics: Pong, Breakout, Pac-Man, Super Mario. This is not about plagiarism; it's about learning. By building a game that you already know how to play, you can focus entirely on the 'how' of development, solving one problem at a time.",
+          "resources": [
+            { "type": "Tutorials", "title": "Search YouTube for 'Unity Pong tutorial' or 'Unreal Breakout tutorial'" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Handling player input",
+            "Moving objects and basic physics",
+            "Collision detection",
+            "Creating a simple game loop (win/lose conditions)",
+            "Implementing a basic UI (score, lives)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Participate in a Game Jam",
+          "details": "A game jam is an event where you (and maybe a team) try to make a game from scratch in a short amount of time, like 48 hours. It's a pressure cooker of creativity and learning. You will learn more in one game jam than in months of tutorials. It forces you to focus on a small, achievable scope and to actually finish something. Plus, it's a lot of fun!",
+          "resources": [
+            { "type": "Website", "title": "Itch.io Game Jams" },
+            { "type": "Website", "title": "Ludum Dare" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Scoping a project realistically",
+            "Rapid prototyping",
+            "Working under pressure",
+            "The art of 'good enough'"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Learn Basic Game Design Principles",
+          "details": "As you build, you need to start thinking like a designer. What makes a game fun? You'll learn about core concepts like game loops, player feedback, difficulty curves, and level design. This is the art and science of crafting an engaging experience. A technically perfect game that isn't fun to play is a failure.",
+          "resources": [
+            { "type": "Book", "title": "The Art of Game Design: A Book of Lenses by Jesse Schell" },
+            { "type": "YouTube", "title": "Game Maker's Toolkit" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Core game loops",
+            "Risk vs. Reward mechanics",
+            "Pacing and difficulty curves",
+            "Player motivation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Polished Developer (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Build a Vertical Slice of Your Own Game",
+          "details": "Now it's time to work on your own idea. But don't try to build the whole thing. Build a 'vertical slice' – one level or a short C-minute experience that showcases all the core mechanics and the intended look and feel of your game. This is a polished, playable demo that you can use to get feedback, and it will form the foundation of your portfolio.",
+          "resources": [
+            { "type": "Concept", "title": "What is a Vertical Slice?" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Project management",
+            "Defining and executing on your own vision",
+            "Creating polished gameplay",
+            "Implementing art and sound to create a specific mood"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Dive into a Specialization",
+          "details": "Game development is a huge field. As you gain experience, you'll likely find an area you love. Do you love making characters feel amazing to control? That's gameplay programming. Do you enjoy creating beautiful visual effects? That's tech art. Are you obsessed with making the game run fast? That's optimization. Going deep into a specialization can make you a highly valuable member of a team.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Gameplay Programming (Player controls, AI, game mechanics)",
+            "Graphics Programming (Shaders, rendering)",
+            "Tools Programming (Creating tools to help designers and artists)",
+            "UI/UX Programming"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Build Your Portfolio and Network",
+          "details": "In the game industry, your portfolio is everything. It's the collection of games and projects you've built. A playable demo is worth a thousand words on a resume. Share your work online. Post GIFs and videos on social media. Join communities like Reddit's r/gamedev. Go to local developer meetups. The game industry is tight-knit, and the connections you make are invaluable.",
+          "resources": [
+            { "type": "Platform", "title": "Itch.io (for hosting your games)" },
+            { "type": "Platform", "title": "GitHub (for showcasing your code)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Creating a portfolio website",
+            "Recording good gameplay footage",
+            "Writing about your development process",
+            "Giving and receiving feedback"
+          ]
+        }
+      ]
+    }
+  ]
+}

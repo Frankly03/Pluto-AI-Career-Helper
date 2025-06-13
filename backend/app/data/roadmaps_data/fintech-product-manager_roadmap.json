@@ -1,0 +1,143 @@
+{
+  "title": "Fintech Product Manager Roadmap",
+  "description": "Welcome to the fast-paced intersection of finance and technology. A Fintech Product Manager builds the products that are changing how we save, spend, borrow, and invest. You're a product leader who is not only obsessed with user experience but also navigates the complex worlds of regulation, security, and financial systems. This is your quest to build the future of money.",
+  "slug": "fintech-product-manager",
+  "stages": [
+    {
+      "title": "Phase 1: The Core Product & Finance Foundation (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master Product Management Fundamentals",
+          "details": "Before you can be a Fintech PM, you must be a great PM. This means mastering the core disciplines of product management: deeply understanding users, identifying problems, and leading a team to ship solutions. The foundational skills of discovery, prioritization, and execution are universal and absolutely essential.",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Product Manager Roadmap (Phase 1 & 2)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "User research and problem discovery",
+            "Prioritization frameworks (RICE, etc.)",
+            "Writing user stories and working with an agile team",
+            "Data analysis and A/B testing"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn the Language of Finance & Fintech",
+          "details": "You need to speak the language of money. You don't need to be a Wall Street quant, but you must understand the fundamental concepts of the financial domain you're working in. Whether it's payments, lending, or investing, you need to know the terminology, the key players, and how money moves. This builds credibility and allows you to understand the unique challenges of the space.",
+          "resources": [
+            { "type": "Reading", "title": "Follow industry publications like The Financial Brand, FinSMEs, and Tearsheet" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Key Fintech verticals: Payments, Lending, Investing, Insurance, etc.",
+            "Understanding core financial concepts (interest, credit, assets, liabilities)",
+            "Key metrics in finance (LTV, CAC, APR, AUM)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Understand the Regulatory Landscape",
+          "details": "Finance is a heavily regulated industry, and for good reason. You can't just 'move fast and break things' when you're dealing with people's money. You need a foundational understanding of the key regulations in your domain. This isn't about being a lawyer, but about knowing the rules of the road so you can build compliant products from the ground up. Ignoring regulation is a recipe for disaster.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "KYC (Know Your Customer) and AML (Anti-Money Laundering) principles",
+            "Data privacy regulations (like GDPR and CCPA)",
+            "Payment network rules (e.g., PCI DSS for card payments)",
+            "Domain-specific regulations (e.g., consumer lending laws)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Building Trust and Value (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Obsess Over Security and Trust",
+          "details": "In fintech, trust is your most important feature. A single security breach can destroy a company. As a PM, you must be a champion for security. You'll work closely with engineering and security teams to ensure that your product is designed to be secure from the start. You need to understand common threats and how to mitigate them to protect your users and the business.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Authentication methods (MFA, biometrics)",
+            "Data encryption principles",
+            "Fraud detection and prevention mechanisms",
+            "Communicating security features as user benefits"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Master the Technical Details of Your Domain",
+          "details": "Fintech products are often built on top of complex, legacy financial infrastructure. You need to go deep on the technical details of your specific area. If you're in payments, you need to understand payment rails (ACH, FedWire), card networks (Visa, Mastercard), and payment gateways (Stripe, Adyen). This technical depth is crucial for making smart product decisions and working effectively with engineers.",
+          "resources": [
+            { "type": "Reading", "title": "Stripe's Atlas guides and documentation are a masterclass in explaining complex financial concepts" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "API integrations with financial data providers (e.g., Plaid)",
+            "Understanding payment processing flows",
+            "The architecture of lending or investment platforms"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Focus on the User Experience of Complex Information",
+          "details": "Financial products are often complex and intimidating for users. Your job is to make them simple, intuitive, and even delightful. How do you explain a complex investment strategy in a way a novice can understand? How do you design a loan application that doesn't feel overwhelming? A great fintech PM is a master of simplifying complexity and building user interfaces that inspire confidence.",
+          "resources": [
+            { "type": "Action", "title": "Analyze the onboarding flows of best-in-class fintech apps like Robinhood, Chime, and Revolut" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Designing clear onboarding experiences",
+            "Data visualization for financial information",
+            "Building user trust through UI and copy",
+            "Simplifying jargon and complex terms"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Strategic Fintech Leader (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Develop Strong Partnership and Vendor Management Skills",
+          "details": "No fintech company does everything themselves. Your product will rely on a web of third-party partners and vendors, from payment processors to data aggregators to identity verification services. You need to be skilled at identifying, evaluating, and managing these partnerships. The success of your product often depends on the quality of your partners.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Evaluating and selecting technology vendors",
+            "Managing relationships with key partners",
+            "Understanding the economics of partnerships"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Think in Ecosystems, Not Just Products",
+          "details": "Modern fintech is about building platforms and ecosystems. How does your product connect with other financial services your user might need? Can you build a platform that others can build on top of? As a strategic leader, you'll think beyond a single feature set and consider how to build a defensible, long-term business by creating a network effect.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Platform strategy",
+            "Understanding network effects",
+            "Open Banking and the future of financial data sharing"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Stay Ahead of Technological and Regulatory Shifts",
+          "details": "Fintech is one of the most rapidly changing industries in the world. New technologies (like AI and blockchain) and new regulations are constantly emerging. A great fintech PM is a continuous learner, always staying on top of the latest trends. You are constantly looking around the corner to see what's next and how it will impact your product, your customers, and your business.",
+          "resources": [],
+          "completed": false,
+          "key_learnings": [
+            "Following industry news and analysis",
+            "Understanding the impact of new technologies on finance",
+            "Anticipating regulatory changes",
+            "Building an adaptable product strategy"
+          ]
+        }
+      ]
+    }
+  ]
+}

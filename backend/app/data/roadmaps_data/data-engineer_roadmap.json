@@ -1,0 +1,165 @@
+{
+  "title": "Data Engineer Roadmap",
+  "description": "Welcome to the world of digital plumbing and architecture. While data scientists analyze data, you're the one who builds the superhighways to deliver it. A Data Engineer designs, builds, and maintains the systems that collect, store, and process massive amounts of data. You are the foundation upon which all data-driven decisions are built. This is your quest to become a master of the data pipeline.",
+  "slug": "data-engineer",
+  "stages": [
+    {
+      "title": "Phase 1: The Core Engineering Foundation (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master a Programming Language",
+          "details": "Python is the dominant language in data engineering due to its simplicity and the rich ecosystem of data-focused libraries. You'll use it for scripting, building data pipelines, and interacting with various systems. Alternatively, languages like Java or Scala are prevalent in the big data world (especially with tools like Spark). You need to be a strong programmer first and foremost.",
+          "resources": [
+            { "type": "Language", "title": "Python (The top choice)" },
+            { "type": "Language", "title": "Java or Scala (Good to know for the big data ecosystem)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Strong programming fundamentals",
+            "Working with files and APIs",
+            "Writing efficient, readable, and testable code"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Deep Dive into Databases",
+          "details": "Databases are your bread and butter. You need a much deeper understanding than most other tech roles. You'll master SQL and relational databases like PostgreSQL, focusing on database design, performance tuning, and complex query writing. You will also learn about different types of databases for different jobs, such as NoSQL databases (MongoDB) for unstructured data and, most importantly, data warehouses.",
+          "resources": [
+            { "type": "Database", "title": "PostgreSQL" },
+            { "type": "Book", "title": "The Data Warehouse Toolkit by Ralph Kimball" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Advanced SQL (Window Functions, CTEs)",
+            "Database Indexing and Query Optimization",
+            "Data Modeling (Normalization, Star Schema, Snowflake Schema)",
+            "Understanding OLTP (transactional) vs. OLAP (analytical) systems"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn the Linux Command Line",
+          "details": "Most data infrastructure runs on Linux servers. You will be working with them constantly. Proficiency in the command line is not optional. You need to be comfortable navigating file systems, managing processes, writing shell scripts to automate tasks, and using tools like SSH to connect to remote machines. This is your primary interface to the systems you build.",
+          "resources": [
+            { "type": "Tutorial", "title": "The Linux Command Line" },
+            { "type": "Practice", "title": "OverTheWire: Bandit - A game to learn the command line" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Navigating the filesystem (ls, cd, pwd)",
+            "File manipulation (cp, mv, rm, nano, vi)",
+            "Permissions (chmod)",
+            "Shell Scripting Basics (for automation)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: Building the Data Highways (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Data Warehousing",
+          "details": "A data warehouse is a special kind of database optimized for analytical queries. It's the central repository of truth for a company's data. You will learn how to design, build, and manage these systems. This involves understanding concepts like ETL/ELT and how to structure data for fast analysis. Modern cloud data warehouses are a key technology to master.",
+          "resources": [
+            { "type": "Platform", "title": "Google BigQuery, Amazon Redshift, or Snowflake" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Data Warehouse architecture",
+            "ETL (Extract, Transform, Load) vs. ELT (Extract, Load, Transform)",
+            "Columnar Storage",
+            "Dimensional Modeling (Facts and Dimensions)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Big Data Technologies",
+          "details": "What happens when your data is too big to fit on a single machine? You enter the world of distributed computing and big data. This is where you learn about the Hadoop ecosystem and, more importantly, its modern successor, Apache Spark. Spark is a powerful engine for processing massive datasets in parallel across a cluster of computers. This is a core skill for a data engineer.",
+          "resources": [
+            { "type": "Framework", "title": "Apache Spark" },
+            { "type": "Book", "title": "Spark: The Definitive Guide" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Distributed Computing Concepts (MapReduce)",
+            "Using the Spark DataFrame API",
+            "Understanding Spark's architecture (Driver, Executors)",
+            "Data Storage Formats (Parquet, ORC)"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Data Orchestration and Pipelines",
+          "details": "Your data processes don't run themselves. You need a tool to schedule, monitor, and manage your complex data workflows. This is where data orchestration tools come in. They allow you to define your pipelines as code, setting dependencies, handling failures, and providing visibility into your data flows. This is how you build reliable and maintainable data systems.",
+          "resources": [
+            { "type": "Tool", "title": "Apache Airflow (The most popular choice)" },
+            { "type": "Tool", "title": "Dagster or Prefect (Modern alternatives)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Defining DAGs (Directed Acyclic Graphs)",
+            "Scheduling jobs",
+            "Monitoring and alerting",
+            "Writing idempotent tasks"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Cloud Data Architect (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Embrace a Cloud Platform",
+          "details": "Modern data engineering happens in the cloud. You need to become an expert in the data services of at least one major cloud provider (AWS, GCP, or Azure). Each platform has a vast suite of tools for storage, databases, data processing, and machine learning. Knowing how to piece these services together to build a robust data platform is a critical skill.",
+          "resources": [
+            { "type": "Platform", "title": "AWS (S3, Glue, Redshift, EMR)" },
+            { "type": "Platform", "title": "GCP (Cloud Storage, Dataflow, BigQuery)" },
+            { "type": "Platform", "title": "Azure (Blob Storage, Data Factory, Synapse)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Cloud Storage",
+            "Managed Database Services",
+            "Serverless Computing",
+            "Identity and Access Management (IAM)"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Learn about Streaming Data",
+          "details": "Not all data comes in neat batches. A lot of modern data is a continuous stream of events: clicks on a website, sensor data from a device, transactions from a store. You need to learn how to work with real-time data streams. This involves different tools and a different way of thinking, moving from batch processing to stream processing.",
+          "resources": [
+            { "type": "Tool", "title": "Apache Kafka (The industry standard for streaming)" },
+            { "type": "Framework", "title": "Spark Structured Streaming or Apache Flink" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Batch vs. Streaming concepts",
+            "Kafka's architecture (Topics, Producers, Consumers)",
+            "Windowing concepts in streaming",
+            "The Lambda and Kappa architectures"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Infrastructure as Code (IaC)",
+          "details": "As your data platforms become more complex, you can't manage them by clicking around in a web console. You need to define your infrastructure as code. Tools like Terraform allow you to write declarative configuration files to manage your cloud resources. This makes your infrastructure reproducible, version-controlled, and automated. This is a core tenet of modern DevOps and data engineering.",
+          "resources": [
+            { "type": "Tool", "title": "Terraform" },
+            { "type": "Tool", "title": "Docker (for containerizing applications)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Declarative infrastructure",
+            "Managing state",
+            "Writing reusable modules",
+            "Containerization with Docker"
+          ]
+        }
+      ]
+    }
+  ]
+}

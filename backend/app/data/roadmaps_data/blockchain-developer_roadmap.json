@@ -1,0 +1,160 @@
+{
+  "title": "Blockchain Developer Roadmap",
+  "description": "Welcome, builder of the decentralized future. A Blockchain Developer architects the immutable, transparent systems that power everything from cryptocurrencies to next-generation applications. You're not just writing code; you're designing trust itself. This is your quest to master the art of building on the blockchain.",
+  "slug": "blockchain-developer",
+  "stages": [
+    {
+      "title": "Phase 1: The Cryptographic Foundation (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Build Strong Computer Science Fundamentals",
+          "details": "Before you can build the future, you must understand the present. Blockchain is a complex field built on decades of computer science. You need a solid grasp of how computers and networks operate. This is the bedrock upon which all your specialized knowledge will be built. Don't skip this!",
+          "resources": [
+            { "type": "Roadmap", "title": "Follow the Software Engineer Roadmap (Phase 1)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Proficiency in a programming language (Python or JavaScript is great to start)",
+            "Data Structures (especially Hash Tables, Trees, and Graphs)",
+            "Networking fundamentals (How the internet works)",
+            "Operating Systems basics"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Understand Blockchain & Cryptography Concepts",
+          "details": "What actually *is* a blockchain? You need to understand the core concepts that make it revolutionary. This is the theory behind the magic. You'll learn about decentralization, consensus mechanisms, and the cryptographic principles that keep the chain secure. This is like learning the laws of physics before trying to build a rocket ship.",
+          "resources": [
+            { "type": "Book", "title": "Mastering Bitcoin by Andreas M. Antonopoulos" },
+            { "type": "Course", "title": "Bitcoin and Cryptocurrency Technologies (Coursera)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "What is a block, a chain, and a hash?",
+            "Public Key Cryptography (Public/Private Keys, Signatures)",
+            "Consensus Algorithms (Proof of Work vs. Proof of Stake)",
+            "The concept of decentralization and distributed ledgers"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Choose a Blockchain Ecosystem (Ethereum is a great start)",
+          "details": "There are many blockchains, but it's best to start with one and go deep. Ethereum is the largest and most established platform for smart contracts and decentralized applications (dApps), making it the perfect place to learn. You'll learn its architecture, how transactions work, and what makes it a 'world computer'.",
+          "resources": [
+            { "type": "Website", "title": "Ethereum.org - The official starting point" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Ethereum Virtual Machine (EVM)",
+            "How gas and fees work",
+            "Understanding accounts, transactions, and smart contracts",
+            "The difference between the mainnet and testnets"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Smart Contract Developer (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Learn Solidity",
+          "details": "Solidity is the primary programming language for writing smart contracts on Ethereum and other EVM-compatible chains. It's like learning the specific language to write the rules of your decentralized application. You'll learn its syntax, its peculiarities, and, most importantly, how to write secure code, as a mistake in a smart contract can be permanent and costly.",
+          "resources": [
+            { "type": "Tutorial", "title": "CryptoZombies - A fun, interactive Solidity tutorial" },
+            { "type": "Documentation", "title": "The official Solidity documentation" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Solidity syntax (variables, functions, mappings, structs)",
+            "Understanding common design patterns",
+            "Security best practices (Re-entrancy attacks, integer overflows)",
+            "ERC standards (ERC-20 for tokens, ERC-721 for NFTs)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Master Development Tools",
+          "details": "You don't write smart contracts in a simple text editor. You use a sophisticated suite of tools to compile, test, and deploy your code. These frameworks provide a local blockchain for testing, tools for managing your projects, and libraries to make development easier. Mastering these tools is what turns you from a hobbyist into a professional.",
+          "resources": [
+            { "type": "Framework", "title": "Hardhat (A popular and modern choice)" },
+            { "type": "Framework", "title": "Truffle (The classic choice)" },
+            { "type": "Library", "title": "Ethers.js or Web3.js (For interacting with the blockchain from a frontend)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Setting up a local development environment",
+            "Writing and running tests for your smart contracts",
+            "Deploying contracts to testnets and the mainnet",
+            "Writing deployment scripts"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Build and Deploy a dApp",
+          "details": "It's time to put it all together. A dApp (decentralized application) consists of your smart contracts (the backend) and a user interface (the frontend) that allows people to interact with them. You'll build a simple web interface that connects to a user's crypto wallet (like MetaMask) and calls functions in your deployed smart contracts. This is the full stack of blockchain development.",
+          "resources": [
+            { "type": "Project Idea", "title": "Build a simple NFT minting site, a voting application, or a decentralized to-do list." }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Connecting a frontend (using React, for example) to the blockchain",
+            "Using a wallet provider like MetaMask",
+            "Reading data from and writing data to your smart contracts"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Blockchain Architect (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Deep Dive into Security and Auditing",
+          "details": "In blockchain, security is everything. Because code on the blockchain is often immutable and controls real value, vulnerabilities can be catastrophic. You need to learn to think like an attacker. You'll study common exploits, learn advanced security patterns, and understand the process of a security audit, where third-party experts review your code for flaws.",
+          "resources": [
+            { "type": "Resource", "title": "The Ethernaut - A wargame to learn hacking smart contracts" },
+            { "type": "Tool", "title": "Slither - A static analysis tool for Solidity" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Advanced security vulnerabilities",
+            "Defensive programming patterns",
+            "Understanding the process of a smart contract audit",
+            "Formal verification concepts"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Explore Advanced Topics (DeFi, DAOs, Layer 2)",
+          "details": "The blockchain space is vast and evolving rapidly. Once you have the fundamentals, you can start exploring the cutting edge. Dive into DeFi (Decentralized Finance) to understand how things like lending protocols and decentralized exchanges work. Learn about DAOs (Decentralized Autonomous Organizations) for a new model of governance. Explore Layer 2 scaling solutions (like Optimism or Arbitrum) that are making Ethereum faster and cheaper.",
+          "resources": [
+            { "type": "Reading", "title": "Read the whitepapers of major DeFi protocols like Aave and Uniswap" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "DeFi primitives (lending, borrowing, swapping)",
+            "Governance and voting mechanisms in DAOs",
+            "How rollups and other Layer 2 solutions work",
+            "The concept of MEV (Maximal Extractable Value)"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Contribute to the Ecosystem",
+          "details": "The best way to learn and make a name for yourself is to get involved. The blockchain world is built on open-source collaboration. Contribute to an open-source project on GitHub, participate in governance discussions for a DAO, or build a useful public tool for the community. This is how you build your reputation and stay at the forefront of this exciting field.",
+          "resources": [
+            { "type": "Platform", "title": "GitHub - Find projects to contribute to" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Open-source collaboration",
+            "Community engagement",
+            "Staying up-to-date with a rapidly changing industry"
+          ]
+        }
+      ]
+    }
+  ]
+}

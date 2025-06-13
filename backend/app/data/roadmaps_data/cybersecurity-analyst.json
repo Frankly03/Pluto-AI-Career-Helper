@@ -1,0 +1,162 @@
+{
+  "title": "Cybersecurity Analyst Roadmap",
+  "description": "Welcome to the front lines of the digital world. As a Cybersecurity Analyst, you are the guardian of information, the digital detective, and the protector of the realm. You identify and block threats, investigate breaches, and fortify defenses to keep data safe from attackers. This is your quest to become a master of digital defense.",
+  "slug": "cybersecurity-analyst",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of IT and Security (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master IT Fundamentals",
+          "details": "You can't protect a system you don't understand. Before you can dive into security, you need a rock-solid foundation in IT. This means understanding computer hardware, software, and, most importantly, networking. How do computers talk to each other? What is an IP address? How does data get from point A to point B? This knowledge is the bedrock of everything else.",
+          "resources": [
+            { "type": "Certification", "title": "CompTIA A+ (for hardware/software)" },
+            { "type": "Certification", "title": "CompTIA Network+ (The essential networking cert)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Computer Hardware and Operating Systems (Windows & Linux)",
+            "The OSI and TCP/IP models",
+            "IP addressing, subnetting, DNS, and DHCP",
+            "Common ports and protocols (HTTP, SSH, FTP, etc.)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Learn Security Fundamentals",
+          "details": "Now, you can start looking at the world through a security lens. This is where you learn the core principles of cybersecurity. You'll learn about the 'CIA Triad' (Confidentiality, Integrity, Availability), risk management, and the different types of threats and vulnerabilities that exist. This phase gives you the vocabulary and the mindset of a security professional.",
+          "resources": [
+            { "type": "Certification", "title": "CompTIA Security+ (The #1 entry-level security cert)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The CIA Triad",
+            "Types of malware (viruses, worms, ransomware, spyware)",
+            "Social engineering tactics (phishing, vishing)",
+            "Access control models",
+            "Basic cryptography concepts"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Get Comfortable with the Command Line",
+          "details": "A significant amount of security work, from analysis to forensics, happens on the command line. You need to be comfortable in both the Windows (PowerShell) and, more importantly, the Linux environments. The command line gives you a level of power and visibility that a graphical interface can't match. You'll use it to analyze logs, run security tools, and automate tasks.",
+          "resources": [
+            { "type": "Tutorial", "title": "The Linux Command Line" },
+            { "type": "Practice", "title": "OverTheWire: Bandit" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Linux core commands",
+            "Windows PowerShell basics",
+            "Text manipulation tools (grep, awk, sed)",
+            "Writing simple shell scripts"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Defensive Toolset (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Network Traffic Analysis",
+          "details": "The network is the primary battleground. You must learn how to capture and analyze the data flowing through it to spot malicious activity. This is like being a detective who can listen in on any conversation. You'll use tools to inspect individual 'packets' of data to find hidden threats, identify unusual patterns, and reconstruct events during an investigation.",
+          "resources": [
+            { "type": "Tool", "title": "Wireshark (The king of packet analyzers)" },
+            { "type": "Tool", "title": "tcpdump (The command-line equivalent)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Reading and interpreting packet captures",
+            "Filtering traffic to find what matters",
+            "Identifying common attack patterns in network traffic"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Learn Security Information and Event Management (SIEM)",
+          "details": "A SIEM is the central nervous system of a Security Operations Center (SOC). It's a tool that collects, aggregates, and analyzes log data from all across an organization's network. It's your 'single pane of glass' to see what's happening everywhere. You'll learn how to use a SIEM to detect threats in real-time, investigate security alerts, and run reports.",
+          "resources": [
+            { "type": "Tool", "title": "Splunk (The market leader)" },
+            { "type": "Tool", "title": "Elastic SIEM / ELK Stack (A powerful open-source alternative)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Writing queries to search log data",
+            "Creating correlation rules to detect attacks",
+            "Building dashboards for security monitoring",
+            "Investigating alerts generated by the SIEM"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Vulnerability Management and Penetration Testing Basics",
+          "details": "To defend against attackers, you have to think like one. This is where you learn how to find the weaknesses in a system before the bad guys do. You'll use vulnerability scanners to automatically probe systems for known flaws. You'll also learn the basics of penetration testing (ethical hacking), which is the process of actively trying to break into a system to test its defenses.",
+          "resources": [
+            { "type": "Tool", "title": "Nessus or OpenVAS (Vulnerability scanners)" },
+            { "type": "Tool", "title": "Metasploit Framework (A penetration testing tool)" },
+            { "type": "Platform", "title": "TryHackMe or Hack The Box (For hands-on hacking practice)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The phases of a penetration test",
+            "Running and interpreting vulnerability scans",
+            "Understanding the CVSS scoring system",
+            "Basic exploitation techniques"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Seasoned Defender (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Incident Response and Forensics",
+          "details": "Despite your best efforts, security incidents will happen. Incident Response (IR) is the process of what to do when they occur. You'll learn the step-by-step process for containing a threat, eradicating it from the network, and recovering. Digital Forensics is the science of investigating the aftermath of an attack to figure out exactly what happened, how they got in, and what they did.",
+          "resources": [
+            { "type": "Framework", "title": "The NIST Cybersecurity Framework" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The IR lifecycle (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned)",
+            "Evidence handling and chain of custody",
+            "Memory and disk forensics basics"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Cloud Security",
+          "details": "The cloud is the new frontier for cybersecurity. As companies move their infrastructure to AWS, Azure, and GCP, you need to learn how to secure it. Cloud security involves a 'shared responsibility model' and requires a different set of tools and skills than traditional on-premise security. This is one of the fastest-growing areas in cybersecurity.",
+          "resources": [
+            { "type": "Certification", "title": "AWS Certified Security - Specialty" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "The Shared Responsibility Model",
+            "Identity and Access Management (IAM) in the cloud",
+            "Securing cloud networks (VPCs, Security Groups)",
+            "Using cloud-native security tools"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Threat Intelligence and Continuous Learning",
+          "details": "The world of cybersecurity is constantly changing. New threats and attack techniques emerge every day. A great analyst is a lifelong learner. You'll learn about threat intelligence, which is the practice of gathering information about emerging threats to anticipate and defend against them. You'll follow security news, read blogs from researchers, and always stay curious.",
+          "resources": [
+            { "type": "News", "title": "The Hacker News, Bleeping Computer" },
+            { "type": "Community", "title": "Follow security researchers on X (formerly Twitter)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Staying up-to-date with current threats",
+            "Understanding the 'Cyber Kill Chain' and 'MITRE ATT&CK' frameworks",
+            "Developing an analytical and inquisitive mindset"
+          ]
+        }
+      ]
+    }
+  ]
+}

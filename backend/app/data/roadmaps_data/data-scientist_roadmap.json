@@ -1,0 +1,164 @@
+{
+  "title": "Data Scientist Roadmap",
+  "description": "Prepare to be a modern-day fortune teller, a digital detective, and a business strategist all in one. A Data Scientist doesn't just analyze data; they use it to predict the future. You'll wield mathematics, programming, and business acumen to unearth insights that can change a company's entire direction. This is your quest to master the art of data-driven discovery.",
+  "slug": "data-scientist",
+  "stages": [
+    {
+      "title": "Phase 1: The Foundations of Insight (3-6 Months)",
+      "steps": [
+        {
+          "id": "1.1",
+          "name": "Master Python for Data Science",
+          "details": "Python is the undisputed lingua franca of data science. Its clean syntax and incredible ecosystem of libraries make it the perfect tool for everything from data cleaning to building complex machine learning models. You need to go beyond basic scripting and truly master the libraries that form the bedrock of the field. This is your workbench and your set of power tools.",
+          "resources": [
+            { "type": "Course", "title": "Python for Data Science and Machine Learning Bootcamp (Udemy)" },
+            { "type": "Book", "title": "Python for Data Analysis by Wes McKinney" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Pandas: For data manipulation and analysis (DataFrames are your new best friend)",
+            "NumPy: For high-performance numerical computing (the foundation for everything else)",
+            "Matplotlib & Seaborn: For creating powerful and informative data visualizations",
+            "Jupyter Notebooks: Your interactive laboratory for research and analysis"
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Deepen Your Statistical Understanding",
+          "details": "If a data analyst uses statistics to understand the past, a data scientist uses them to predict the future. You need a deeper, more rigorous understanding of statistical concepts. This is the theoretical engine behind all machine learning. You'll learn how to design experiments, build statistical models, and quantify uncertainty. This is what separates guessing from forecasting.",
+          "resources": [
+            { "type": "Course", "title": "Khan Academy - Statistics and Probability" },
+            { "type": "Book", "title": "An Introduction to Statistical Learning" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Probability Distributions (Normal, Binomial, Poisson)",
+            "Statistical Modeling: Linear and Logistic Regression",
+            "Experimental Design: A/B testing, hypothesis testing in depth",
+            "Bayesian vs. Frequentist thinking"
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Learn SQL for Data Extraction",
+          "details": "The most sophisticated model in the world is useless without data. Most company data lives in relational databases, and SQL is the key to unlock it. As a data scientist, you'll need to be proficient at writing complex queries to extract and aggregate the exact data you need for your analysis and models. You can't rely on someone else to get the data for you.",
+          "resources": [
+            { "type": "Website", "title": "SQLZoo" },
+            { "type": "Course", "title": "Mode's SQL Tutorial for Data Analysis" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Complex Joins and Subqueries",
+            "Window Functions for advanced analysis",
+            "Aggregate functions for feature creation",
+            "Query optimization for large datasets"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 2: The Art of Prediction (4-8 Months)",
+      "steps": [
+        {
+          "id": "2.1",
+          "name": "Master Machine Learning Fundamentals",
+          "details": "This is the heart of data science. Machine learning (ML) is the art of teaching computers to learn patterns from data without being explicitly programmed. You'll learn about the different types of ML problems and the algorithms used to solve them. This is like learning the different spells in a wizard's spellbook; each one is suited for a different kind of magic.",
+          "resources": [
+            { "type": "Course", "title": "Machine Learning by Andrew Ng (Coursera) - The classic starting point" },
+            { "type": "Library", "title": "Scikit-learn (The primary Python library for ML)" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Supervised Learning: Regression (predicting a value) & Classification (predicting a category)",
+            "Unsupervised Learning: Clustering (finding groups) & Dimensionality Reduction (simplifying data)",
+            "Core Algorithms: Linear/Logistic Regression, K-Nearest Neighbors, SVMs, Decision Trees, Random Forests",
+            "The ML Workflow: Data preprocessing, feature engineering, model training, and evaluation"
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Feature Engineering and Model Evaluation",
+          "details": "The quality of your model is determined by the quality of your data. Feature engineering is the creative process of transforming raw data into informative 'features' that your model can understand. It's an art that blends domain knowledge with technical skill. Equally important is knowing how to evaluate your model. Is it actually any good? You'll learn about different metrics to measure performance and avoid common pitfalls like overfitting.",
+          "resources": [
+            { "type": "Guide", "title": "A Guide to Feature Engineering" },
+            { "type": "Documentation", "title": "Scikit-learn's guide to model evaluation" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Handling Missing Data and Categorical Variables",
+            "Feature Scaling and Transformation",
+            "Evaluation Metrics: Accuracy, Precision, Recall, F1-score, ROC AUC",
+            "Cross-Validation: A robust way to test your model's performance"
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Build a Portfolio of Projects on Kaggle",
+          "details": "Theory is nothing without practice. Kaggle is the premier platform for data science competitions. It's your gym, your sparring partner, and your portfolio all in one. Pick a competition, download the data, and try to build the best model you can. You will learn more from one Kaggle competition than from a dozen tutorials. Document your process in a public notebook; this is what you will show to employers.",
+          "resources": [
+            { "type": "Website", "title": "Kaggle - Your home for data science" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Working with real, messy data",
+            "Iterative model building and improvement",
+            "Learning from the code of top competitors",
+            "Communicating your results and methodology"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Phase 3: The Full-Stack Scientist (Ongoing)",
+      "steps": [
+        {
+          "id": "3.1",
+          "name": "Dive into Deep Learning",
+          "details": "Deep Learning is a subfield of machine learning that uses 'neural networks' with many layers to solve complex problems, especially in areas like image recognition and natural language processing. This is the cutting edge. You'll learn frameworks like TensorFlow or PyTorch to build and train these powerful models. It's like going from conventional tools to a particle accelerator.",
+          "resources": [
+            { "type": "Course", "title": "DeepLearning.AI Specialization by Andrew Ng (Coursera)" },
+            { "type": "Framework", "title": "TensorFlow or PyTorch" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Neural Network architecture",
+            "Convolutional Neural Networks (CNNs) for images",
+            "Recurrent Neural Networks (RNNs) for sequential data",
+            "Transfer Learning: Using pre-trained models"
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Learn to Deploy Your Models",
+          "details": "A model sitting in a Jupyter Notebook doesn't provide any business value. You need to learn how to 'deploy' it, making it available for an application to use. This often involves wrapping your model in an API (using a framework like Flask or FastAPI) and deploying it to the cloud. This skill bridges the gap between data science and software engineering and is highly valuable.",
+          "resources": [
+            { "type": "Framework", "title": "Flask or FastAPI for building APIs" },
+            { "type": "Tool", "title": "Docker for containerization" },
+            { "type": "Platform", "title": "AWS SageMaker, Google AI Platform" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Building a simple API for your model",
+            "Containerizing your ML application with Docker",
+            "Cloud deployment basics"
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Develop Business Acumen and Storytelling",
+          "details": "The best data scientists are not just technical wizards; they are translators. They can understand a business problem, translate it into a data science problem, and then translate the results back into a compelling story that drives action. You need to learn to speak the language of business and present your complex findings in a simple, intuitive way. Your goal is not to show off your model's accuracy; it's to create impact.",
+          "resources": [
+            { "type": "Book", "title": "Storytelling with Data by Cole Nussbaumer Knaflic" }
+          ],
+          "completed": false,
+          "key_learnings": [
+            "Problem Formulation: Defining a clear, actionable problem",
+            "Stakeholder Communication: Talking to product managers, engineers, and executives",
+            "Data Visualization for communication",
+            "Linking your results to business KPIs"
+          ]
+        }
+      ]
+    }
+  ]
+}
