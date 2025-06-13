@@ -40,66 +40,53 @@ Using **NLP techniques and sentence embeddings**, it parses your profile, parses
 ---
 
 ## 🔹Results
-    Home Page(UI):
+Home Page(UI):
 
-    ![Screenshot of Streamlit UI](ResultImages/0.png)
+![Screenshot of Streamlit UI](ResultImages/0.png)
 
-    Home Page (Hover effect on card):
+Home Page (Hover effect on card):
 
-    ![Screenshot of Streamlit UI](ResultImages/1.png)
+![Screenshot of Streamlit UI](ResultImages/1.png)
 
-    Career Compass[Career Recommendation] UI: 
+Career Compass[Career Recommendation] UI: 
 
-    ![Screenshot of Streamlit UI](ResultImages/2.png)
-    
-    Career Compass Interest Tags Selection:
+![Screenshot of Streamlit UI](ResultImages/2.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/3.png)
+Career Compass Interest Tags Selection:
 
-    Career Compass - Career recommendation Result:
+![Screenshot of Streamlit UI](ResultImages/3.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/4.png)
+Career Compass - Career recommendation Result:
 
-    RoadTo[Roadmap] UI:  
+![Screenshot of Streamlit UI](ResultImages/4.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/5.png)
+RoadTo[Roadmap] UI:  
 
-    RoadTo Result:
+![Screenshot of Streamlit UI](ResultImages/5.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/6.png)
+RoadTo Result:
 
-    Fit Score[Resume and JD matcher]:
+![Screenshot of Streamlit UI](ResultImages/6.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/7.png)
+Fit Score[Resume and JD matcher]:
 
-    Fit Score With Custom JD:
+![Screenshot of Streamlit UI](ResultImages/7.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/8.png)
+Fit Score With Custom JD:
 
-    Fit Score With Custom JD Result:
+![Screenshot of Streamlit UI](ResultImages/8.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/9.png)
+Fit Score With Custom JD Result:
 
-    Fit Score With Prebuilt JD:
+![Screenshot of Streamlit UI](ResultImages/9.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/10.png)
+Fit Score With Prebuilt JD:
 
-    Fit Score With Prebuilt JD Result:
+![Screenshot of Streamlit UI](ResultImages/10.png)
 
-    ![Screenshot of Streamlit UI](ResultImages/11.png)
+Fit Score With Prebuilt JD Result:
 
-## 📁 Project Structure (Simplified)
-
-Pluto/
-├── backend/
-│ ├─ app/
-│ ├─ main.py (FastAPI application entrypoint)
-├── frontend/
-│ ├─ app.py (Streamlit UI main file)
-├── requirements.txt
-├── .gitignore
-├── README.md
-
+![Screenshot of Streamlit UI](ResultImages/11.png)
 
 ---
 
