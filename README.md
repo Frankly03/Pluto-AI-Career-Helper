@@ -93,9 +93,8 @@ Fit Score With Prebuilt JD Result:
 ## 🔹How to Run (Locally)
 
 ➥ **Step 1:** Clone this repository
-    ```shell
-        git clone https://github.com/yourUsername/Pluto.git
-        cd Pluto
+    git clone https://github.com/yourUsername/Pluto.git
+    cd Pluto
 ➥ **Step 2:** Install the requirements
     ```shell
         pip install -r requirements.txt
