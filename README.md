@@ -106,31 +106,34 @@ Fit Score With Prebuilt JD Result:
     
     uvicorn backend.app.main:app --reload
 
-    FastAPI will be available at http://127.0.0.1:8000
+✅ FastAPI will be available at http://127.0.0.1:8000
 
 ➥ **Step 4:** Then start Streamlit
-streamlit run frontend/app.py
+    
+    streamlit run frontend/app.py
 
 ✅ Streamlit UI will be available at http://localhost:8501
 
-🔹Environment
+## 🔹**Environment:**
+
 ✅ Python 3.9+
 
 ✅ FastAPI, Streamlit, sentence transformers, etc.
 
-🔹Possible Improvement Ideas 🌟
+🔹**Possible Improvement Ideas:** 🌟
 
-Personalized scoring criteria
+-> Personalized scoring criteria
 
-User authentication
+-> User authentication
 
-Database storage for profiles and preferences
+-> Database storage for profiles and preferences
 
-Docker Compose for easy deployment
+-> Docker Compose for easy deployment
 
-Recommendation explanations to aid decision-making
+-> Recommendation explanations to aid decision-making
 
 📝 Final Notes
+
 🚀 Pluto is designed to be a lightweight, flexible, and scalable solution for career guidance.
 Whether you’re a student unsure about your future or a professional thinking of a change — Pluto aims to cut through the overwhelm and illuminate your path forward.
 
