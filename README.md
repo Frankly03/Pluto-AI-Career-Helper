@@ -93,29 +93,33 @@ Fit Score With Prebuilt JD Result:
 ## 🔹How to Run (Locally)
 
 ➥ **Step 1:** Clone this repository
+
     git clone https://github.com/yourUsername/Pluto.git
+
     cd Pluto
+
 ➥ **Step 2:** Install the requirements
-    ```shell
-        pip install -r requirements.txt
+    
+    pip install -r requirements.txt
 
 ➥ **Step 3:** Start backend first
-    ```shell
-        uvicorn backend.app.main:app --reload
+    
+    uvicorn backend.app.main:app --reload
 
-✅ FastAPI will be available at http://127.0.0.1:8000
+    FastAPI will be available at http://127.0.0.1:8000
 
 ➥ **Step 4:** Then start Streamlit
-    ```shell
-        streamlit run frontend/app.py
+streamlit run frontend/app.py
 
 ✅ Streamlit UI will be available at http://localhost:8501
 
 🔹Environment
 ✅ Python 3.9+
+
 ✅ FastAPI, Streamlit, sentence transformers, etc.
 
 🔹Possible Improvement Ideas 🌟
+
 Personalized scoring criteria
 
 User authentication
